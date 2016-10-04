@@ -1,0 +1,47 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@font-face { font-family: 'The Heart'; src: url('../fonts/The Heart of Everything Demo.ttf') format('truetype'); }
+
+/***********************
+**** Initialisation ****
+***********************/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+body { font-family: 'Open Sans', sans-serif; }
+
+/***********************
+******** Général *******
+***********************/
+
+/* Bandeau principal de contenu */
+.main { background-color: #0a1d35; color: #FFF; border: 2px #bd924e solid; padding: 20px; }
+
+/* Style des éléments en général */
+a { color: #FFF; text-decoration: none; border-bottom: 1px #bd924e solid; }
+h1 { font-family: "The Heart", cursive; font-size: 8em; margin: 20px; }
+h2 { color: #bd924e; text-transform: uppercase; }
+
+/* Menu principal */
+ul.mainNav { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #0a1d34; }
+ul.mainNav li { float: right; }
+ul.mainNav li.logoNav { float: left; }
+ul.mainNav li a { display: inline-block; color: #fff; text-align: center; padding: 14px 16px; text-decoration: none; transition: 0.3s; font-size: 17px; border: none; text-transform: uppercase; }
+ul.mainNav li a:hover, ul.mainNav li.active a { color: #bd924e; }
+ul.mainNav li.icon { display: none; }
+
+@media screen and (max-width:680px) {
+  ul.mainNav li:not(:first-child) { display: none; } 
+  ul.mainNav li.icon { float: right; display: inline-block; }
+}
+
+@media screen and (max-width:680px) {
+  ul.mainNav.responsive { position: relative; }
+  ul.mainNav.responsive li.icon { position: absolute; right: 0; top: 0; }
+  ul.mainNav.responsive li { float: none; display: inline; }
+  ul.mainNav.responsive li a { display: block; text-align: left; }
+}
