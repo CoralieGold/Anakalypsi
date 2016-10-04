@@ -3,6 +3,20 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<!-- Modernizr -->
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<!-- framework css -->
+	<!--[if gt IE 9]><!-->
+	<link type="text/css" rel="stylesheet" href="css/groundwork.css">
+	<!--<![endif]-->
+	<!--[if lte IE 9]>
+	<link type="text/css" rel="stylesheet" href="css/groundwork-core.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork-type.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork-ui.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork-anim.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork-ie.css">
+	<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
