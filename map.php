@@ -7,6 +7,8 @@
 
 	<h1>La carte</h1>
 
+	<div id="map"></div>
+
 </div>
 
 <?php include_once("footer.php") ?>

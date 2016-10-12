@@ -16,7 +16,11 @@
 	<link type="text/css" rel="stylesheet" href="css/groundwork-anim.css">
 	<link type="text/css" rel="stylesheet" href="css/groundwork-ie.css">
 	<![endif]-->
-
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<?php 
+		if($title == "La carte") {
+			echo '<link rel="stylesheet" type="text/css" href="css/map.css">';
+		}
+	?>
 </head>
 <body>

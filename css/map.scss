@@ -1,0 +1,26 @@
+@import '_variables';
+
+.main {
+	background-color: #1b324a;
+}
+
+#map { 
+	position: relative;
+	width: 80%;
+	height: 80%;
+}
+
+.datamaps-hoverover {
+	/*top: 210px !important;
+	left: 400px!important;*/
+}
+
+.hoverinfo { 
+	background-color: transparent !important;
+	font-size: 13px !important;
+	border: none !important;
+	color: #FFF!important;
+	box-shadow: none !important;
+	font-family: 'Open Sans', sans-serif !important;
+	text-transform: uppercase;
+}  
