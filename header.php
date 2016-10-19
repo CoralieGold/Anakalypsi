@@ -21,6 +21,9 @@
 		if($title == "La carte") {
 			echo '<link rel="stylesheet" type="text/css" href="css/map.css">';
 		}
+		if($title == "Les chapitres") {
+			echo '<link rel="stylesheet" type="text/css" href="css/chaptersSummary.css">';
+		}
 	?>
 </head>
 <body>
