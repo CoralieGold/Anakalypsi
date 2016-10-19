@@ -7,17 +7,17 @@
 	<script src="js/libs/modernizr-2.6.2.min.js"></script>
 	<!-- framework css -->
 	<!--[if gt IE 9]><!-->
-	<link type="text/css" rel="stylesheet" href="css/groundwork.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork.css">
 	<!--<![endif]-->
 	<!--[if lte IE 9]>
-	<link type="text/css" rel="stylesheet" href="css/groundwork-core.css">
-	<link type="text/css" rel="stylesheet" href="css/groundwork-type.css">
-	<link type="text/css" rel="stylesheet" href="css/groundwork-ui.css">
-	<link type="text/css" rel="stylesheet" href="css/groundwork-anim.css">
-	<link type="text/css" rel="stylesheet" href="css/groundwork-ie.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-core.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-type.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-ui.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-anim.css">
+	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-ie.css">
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<?php 
+	<?php
 		if($title == "La carte") {
 			echo '<link rel="stylesheet" type="text/css" href="css/map.css">';
 		}
