@@ -1,0 +1,24 @@
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@font-face {
+  font-family: 'The Heart';
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+/*COLORS*/
+/* Menu principal */
+.mainNav {
+  list-style-type: none;
+  padding: 50px; }
+  .mainNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-transform: uppercase; }
+    .mainNav li a:hover {
+      color: #bd924e; }
+    .mainNav li a.logoNav {
+      font-family: 'The Heart';
+      text-transform: capitalize;
+      font-size: 30px; }
+  .mainNav li.active a {
+    color: #bd924e; }

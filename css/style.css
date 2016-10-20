@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@font-face {
+  font-family: 'The Heart';
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+/*COLORS*/
+/***********************
+**** Initialisation ****
+***********************/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+@font-face {
+  font-family: 'The Heart';
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+/*COLORS*/
+/* Menu principal */
+.mainNav {
+  list-style-type: none;
+  padding: 50px; }
+  .mainNav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    text-transform: uppercase; }
+    .mainNav li a:hover {
+      color: #bd924e; }
+    .mainNav li a.logoNav {
+      font-family: 'The Heart';
+      text-transform: capitalize;
+      font-size: 30px; }
+  .mainNav li.active a {
+    color: #bd924e; }
+
+/***********************
+******** Général *******
+***********************/
+/* Bandeau principal de contenu */
+.main {
+  background-color: #071C36;
+  color: #ffffff;
+  width: 100%;
+  height: 100%; }
+
+/* Style des éléments en général */
+a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  border: none; }
+  a:hover {
+    color: #ffffff; }
+
+h1 {
+  font-family: "The Heart", cursive;
+  font-size: 8em;
+  margin: 20px; }
+
+h2 {
+  color: #bd924e;
+  text-transform: uppercase; }

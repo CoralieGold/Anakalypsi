@@ -1,23 +1,19 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
-}
-
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+/*COLORS*/
 .main {
-  background-color: #1b324a;
-}
+  background-color: #1b324a; }
 
 #map {
   position: relative;
   width: 80%;
-  height: 80%;
-}
+  height: 80%; }
 
 .datamaps-hoverover {
   /*top: 210px !important;
-	left: 400px!important;*/
-}
+  left: 400px!important;*/ }
 
 .hoverinfo {
   background-color: transparent !important;
@@ -26,5 +22,4 @@
   color: #FFF !important;
   box-shadow: none !important;
   font-family: 'Open Sans', sans-serif !important;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }

@@ -18,6 +18,9 @@
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<?php
+		if($title == "Anakálypsi") {
+			echo '<link rel="stylesheet" type="text/css" href="css/home.css">';
+		}
 		if($title == "La carte") {
 			echo '<link rel="stylesheet" type="text/css" href="css/map.css">';
 		}

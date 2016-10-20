@@ -1,0 +1,33 @@
+@import '_variables';
+
+/* Menu principal */
+.mainNav {
+  list-style-type: none;
+  padding: 50px;
+
+  li {
+
+    a {
+      display: inline-block;
+      text-align: center;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+      text-transform: uppercase;
+
+      &:hover {
+        color: $gold;
+      }
+
+      &.logoNav {
+        font-family: 'The Heart';
+        text-transform: capitalize;
+        font-size: 30px;
+      }
+    }
+
+    &.active a {
+      color: $gold;
+    }
+  }
+}
