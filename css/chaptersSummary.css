@@ -1,12 +1,20 @@
-#summary {
-  width: 100%;
-  height: 300px;
-  line-height: 300px;
-  display: flex;
-  flex-wrap: nowrap;
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@font-face {
+  font-family: 'The Heart';
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
 }
 
-#summary li {
+/*COLORS*/
+#summary {
+  width: 100%;
+}
+
+#summary .chapter {
+  height: 30px;
+  line-height: 30px;
+}
+
+#summary .chapter .chapter_point {
   margin: auto;
   color: #bd924e;
   background-color: #bd924e;
@@ -18,8 +26,22 @@
   cursor: pointer;
 }
 
-#summary li:hover {
+#summary .chapter .chapter_point:hover {
   width: 60px;
   height: 60px;
   border-radius: 30px;
+}
+
+#summary .chapter .chapter_content {
+  color: #FFF;
+  text-align: center;
+}
+
+#summary .chapter .chapter_content .chapter_number {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#summary .chapter .chapter_content .chapter_number span {
+  color: #bd924e;
 }
