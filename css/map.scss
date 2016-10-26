@@ -1,13 +1,13 @@
 @import '_variables';
 
 body {
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 .main {
-	background-color: #1b324a;
+	background-color: $blue;
 
-	#map { 
+	#map {
 		width: 90%;
 		height: 90%;
 		position: absolute;
@@ -28,7 +28,7 @@ body {
 	left: 400px!important;*/
 }
 
-.hoverinfo { 
+.hoverinfo {
 	background-color: transparent !important;
 	font-size: 13px !important;
 	border: none !important;
@@ -36,4 +36,4 @@ body {
 	box-shadow: none !important;
 	font-family: 'Open Sans', sans-serif !important;
 	text-transform: uppercase;
-}  
+}

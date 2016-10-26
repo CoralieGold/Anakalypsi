@@ -79,10 +79,10 @@ $(document).ready(function(){
   var map = new Datamap({
     element: document.getElementById('map'),
     fills: {
-      defaultFill: '#071c36' // couleur des pays
+      defaultFill: '#041325' // couleur des pays
     },
     geographyConfig: {
-      highlightFillColor: '#1b324a', // couleur des pays en hover
+      highlightFillColor: '#041325', // couleur des pays en hover
       highlightBorderColor : '#FFFFFF', // couleur des bordures des pays
       highlightBorderWidth: 0,
       highlightOnHover: false,
@@ -102,7 +102,7 @@ $(document).ready(function(){
     arcConfig: {
       strokeColor: '#bd924e',
       strokeWidth: 1,
-      arcSharpness: 1,
+      arcSharpness: 0.2,
       animationSpeed: 3000, // Milliseconds
       popupOnHover: false
     }
@@ -111,7 +111,7 @@ $(document).ready(function(){
   // GESTION DES CHEMINS
   var paths = [
     {
-      "origin":{"latitude":lieux[1].latitude,"longitude":lieux[1].longitude}, // De St Sulpice 
+      "origin":{"latitude":lieux[1].latitude,"longitude":lieux[1].longitude}, // De St Sulpice
       "destination":{"latitude":lieux[2].latitude,"longitude":lieux[2].longitude} // A Kolmanskop
     },
     {
@@ -139,7 +139,7 @@ $(document).ready(function(){
       "destination":{"latitude":lieux[8].latitude,"longitude":lieux[8].longitude} // A l'Orpheum Theater
     },
     {
-      "origin":{"latitude":lieux[8].latitude,"longitude":lieux[8].longitude}, // De l'Orpheum Theater 
+      "origin":{"latitude":lieux[8].latitude,"longitude":lieux[8].longitude}, // De l'Orpheum Theater
       "destination":{"latitude":lieux[9].latitude,"longitude":lieux[9].longitude} // Au Casino
     },
       {
@@ -198,7 +198,7 @@ $(document).ready(function(){
     map.resize();
   });
 
-  // Enlever bordures pays 
+  // Enlever bordures pays
   $('.datamaps-subunit').css('stroke-width', '0');
 
 });
