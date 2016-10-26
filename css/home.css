@@ -15,11 +15,11 @@
     display: block;
     margin: auto; }
 
-a {
+#line-through {
   position: relative;
   display: inline-block;
   text-transform: uppercase; }
-  a:hover::before {
+  #line-through:hover::before {
     content: '';
     border-bottom: 2px solid #bd924e;
     width: 100%;
