@@ -1,25 +1,65 @@
+@import '_variables';
+
 #summary {
 	width: 100%;
 	height: 300px;
-	line-height: 300px;
-	display: flex;
-	flex-wrap: nowrap;
+	position: relative;
 
-	li {
-		margin: auto;
-		color: #bd924e;
-		background-color: #bd924e;
-		width: 16px;
-		height: 16px;
-		border-radius: 8px;
-		text-decoration: none;
-		border: none;
-		cursor: pointer;
+	#line {
+		height: 5px;
+		width: 100%;
+		background-color: $gold;
+		position: absolute;
+		margin-top: 82px;
 	}
 
-	li:hover {
-		width: 60px;
-		height: 60px;
-		border-radius: 30px;
+	.chapter {
+		height: 120px;
+
+		.chapter_point {
+			margin: auto;
+			color: $gold;
+			background-color: $gold;
+			width: 20px;
+			height: 20px;
+			margin: 25px auto;
+			border-radius: 10px;
+			text-decoration: none;
+			border: none;
+			cursor: pointer;
+
+			img {
+				display: none;
+			}
+
+			&:hover {
+				width: 70px;
+				height: 70px;
+				border-radius: 35px;
+				margin: auto auto;
+
+				img {
+					display: block;
+					height: 70px;
+					width: 70px;
+					border-radius: 35px;
+				}
+			}
+		}
+
+		.chapter_content {
+			color: #FFF;
+			text-align: center;
+			height: 50px;
+
+			.chapter_number {
+				text-transform: uppercase;
+				font-weight: bolder;
+			}
+
+			.chapter_number span {
+				color: $gold;
+			}
+		}
 	}
 }
