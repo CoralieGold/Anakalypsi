@@ -20,9 +20,10 @@
   margin: auto;
 }
 
-a {
+#line-through {
   position: relative;
   display: inline-block;
+<<<<<<< HEAD
   text-transform: uppercase;
 }
 
@@ -34,3 +35,13 @@ a:hover::before {
   right: 0;
   top: 50%;
 }
+=======
+  text-transform: uppercase; }
+  #line-through:hover::before {
+    content: '';
+    border-bottom: 2px solid #bd924e;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%; }
+>>>>>>> origin/master
