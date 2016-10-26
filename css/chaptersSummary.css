@@ -68,3 +68,7 @@
 #summary .chapter .chapter_content .chapter_number span {
   color: #bd924e;
 }
+
+#summary .chapter .chapter_content .chapter_title {
+  margin-top: 5px;
+}
