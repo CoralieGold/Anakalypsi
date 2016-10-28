@@ -78,6 +78,10 @@ $(document).ready(function(){
 
   var map = new Datamap({
     element: document.getElementById('map'),
+      projection: 'mercator', //style of projection to be used. try "mercator"
+      height: null, //if not null, datamaps will grab the height of 'element'
+      width: null, //if not null, datamaps will grab the width of 'element'
+      // responsive: true, //if true, call `resize()` on the map object when it should adjust it's size
     fills: {
       defaultFill: '#041325' // couleur des pays
     },
