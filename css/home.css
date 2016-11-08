@@ -3,23 +3,20 @@
   font-family: 'The Heart';
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
-/*center-align*/
-.center-wrapper {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; }
-  .center-wrapper .center {
-    display: block;
-    margin: auto; }
+#home .cta {
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-10%); }
+#home h1 {
+  font-size: 10em; }
 
-#line-through {
+.line-through {
   position: relative;
   display: inline-block;
   text-transform: uppercase; }
-  #line-through:hover::before {
+  .line-through:hover::before {
     content: '';
     border-bottom: 2px solid #bd924e;
     width: 100%;

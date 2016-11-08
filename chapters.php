@@ -2,6 +2,7 @@
 <?php include_once("header.php") ?>
 
 <div class="main">
+	<div class="gold-border center">
 
 	<?php include_once("menu.php") ?>
 
@@ -39,7 +40,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap3_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter4.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -49,7 +50,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap4_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter5.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -59,7 +60,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap5_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter6.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -79,7 +80,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap7_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter8.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -89,7 +90,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap8_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter9.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -109,7 +110,7 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap10_summary.jpg"></div>
 		</a>
-		
+
 		<a href="chapter11.php" class="chapter one twelfth">
 			<div class="chapter_content">
 				<div class="chapter_number">
@@ -119,8 +120,8 @@
 			</div>
 			<div class="chapter_point"><img src="images/chap1_summary.jpg"></div>
 		</a>
-	
 
+	</div>
 </div>
 
 <?php include_once("footer.php") ?>
@@ -136,8 +137,8 @@
 
 		$(".chapter_point").mouseout(function() {
 			$(this).siblings("div.chapter_content").css("visibility", "hidden");
-		});		
+		});
 
 	});
-	
+
 </script>
