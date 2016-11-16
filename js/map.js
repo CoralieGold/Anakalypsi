@@ -54,8 +54,8 @@ $(document).ready(function(){
   // Orpheum Theater
   lieux[8] = {
     name: "Orpheum Theater",
-    latitude: 41.62,
-    longitude: -70.92
+    latitude: 35.21,
+    longitude: -90.05
   };
 
   // Casino abandonné
