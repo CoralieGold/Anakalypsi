@@ -1,7 +1,7 @@
 <?php $title = "A propos" ?>
 <?php include_once("header.php") ?>
 
-<div class="main">
+<div class="main bg-img">
 	<div class="gold-border center">
 
 		<?php include_once("menu.php") ?>
@@ -13,7 +13,7 @@
 		</div>
 		<div class="row">
 			<div class="ten twelfths skip-two">
-				<h2>Un voyage à travers du lorem ipsum</h2>
+				<h2 class="letter-spacing">Un voyage à travers du lorem ipsum</h2>
 			</div>
 		</div>
 		<div class="row">

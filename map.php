@@ -4,11 +4,13 @@
 <div class="main">
 	<div class="gold-border center">
 
-	<?php include_once("menu.php") ?>
+	<div id="map" class="center"></div>
 
-	<h1>La carte</h1>
-	<div id="map"></div>
-	
+	<?php include_once("menu.php") ?>
+	<div class="row">
+		<div class="eleven twelfths skip-one">
+			<h1>La carte</h1>
+		</div>
 	</div>
 </div>
 

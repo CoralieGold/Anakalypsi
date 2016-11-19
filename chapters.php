@@ -1,12 +1,16 @@
 <?php $title = "Les chapitres" ?>
 <?php include_once("header.php") ?>
 
-<div class="main">
+<div class="main bg-img">
 	<div class="gold-border center">
 
 	<?php include_once("menu.php") ?>
 
-	<h1>Les chapitres</h1>
+	<div class="row">
+		<div class="eleven twelfths skip-one">
+			<h1>Les chapitres</h1>
+		</div>
+	</div>
 	<div id="summary" class="row">
 
 		<div id="line"></div>

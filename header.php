@@ -27,6 +27,9 @@
 		if($title == "Les chapitres") {
 			echo '<link rel="stylesheet" type="text/css" href="css/chaptersSummary.css">';
 		}
+		if(strpos($title, "chapitre")== true) {
+			echo '<link rel="stylesheet" type="text/css" href="css/chapter.css">';
+		}
 	?>
 </head>
 <body>
