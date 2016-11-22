@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
@@ -69,7 +69,8 @@
       font-weight: normal; }
       #summary .chapters .chapters_content .chapters_number {
         text-transform: uppercase;
-        font-size: 14px; }
+        font-size: 14px;
+        font-weight: 600; }
         #summary .chapters .chapters_content .chapters_number span {
           color: #bd924e;
           font-weight: 800; }

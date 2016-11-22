@@ -1,7 +1,7 @@
 <?php $title = "Le chapitre 1" ?>
 <?php include_once("header.php") ?>
 
-<div class="main chapter un">
+<div class="main chapter one">
 	<div class="gold-border center">
 
 		<?php include_once("menu.php") ?>
@@ -24,7 +24,7 @@
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
 				<div class="one half">
-					<img src="images/chap1-img1.jpg" alt="" />
+					<img src="images/chap1/chap1_img1.jpg" alt="" />
 				</div>
 				<div class="one half">
 					<p class="valign">
@@ -52,7 +52,7 @@
 					</p>
 				</div>
 				<div class="one half">
-					<img src="images/chap1-img2.jpg" alt="" />
+					<img src="images/chap1/chap1_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
@@ -66,34 +66,43 @@
 				</div>
 			</div>
 		</div>
-	<div class="en-bref">
-		<div class="row">
-			<div class="eight twelfths skip-two">
-				<h2 class="letter-spacing white bold">En Bref</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="eight twelfths skip-two">
-				<p class="white">L’Eglise Saint Sulpice se trouve au centre de Paris. Ce lieu culte faisant partie du Da Vinci Tour, abritant dans sa crypte une ancienne église toujours conservée est la première étape du voyage Anakálypsi.<br>
-				Le lieu est situé 2 rue Garancière, dans le 6eme arrondissement de Paris en France.
-				</p>
+		<div class="en-bref">
+			<div class="row">
+				<div class="eight twelfths skip-two">
+					<h2 class="letter-spacing white bold">En Bref</h2>
 				</div>
-		</div>
-	</div>
-	<div class="map-chapter">
-	</div>
-	<div class="next-chapter">
-		<div class="row">
-			<div class="one half">
-				<a>Accueil</a>
 			</div>
-			<div class="one half">
-				<a class="uppercase">Chapitre <span class="gold">2</span></a>
-				<a>Kolmanskop</a>
+			<div class="row">
+				<div class="eight twelfths skip-two">
+					<p class="white">L’Eglise Saint Sulpice se trouve au centre de Paris. Ce lieu culte faisant partie du Da Vinci Tour, abritant dans sa crypte une ancienne église toujours conservée est la première étape du voyage Anakálypsi.<br>
+						Le lieu est situé 2 rue Garancière, dans le 6eme arrondissement de Paris en France.
+					</p>
+				</div>
 			</div>
 		</div>
+		<div class="map-chapter">
+			<img src="images/chap1/chap1_map.jpg" alt="" />
+		</div>
+		<div class="next-chapter">
+			<div class="row">
+				<div class="one half">
+					<a href="index.php" class="valign-wrapper">
+						<div class="lineLeft valign"></div>
+						<div class="dotLeft valign"></div>
+						<p class="linkLeft valign white uppercase letter-spacing semibold">Accueil</p>
+					</a>
+				</div>
+
+				<div class="one half">
+					<a href="chapter2.php" class="valign-wrapper">
+						<p class="linkRight valign white uppercase letter-spacing semibold">Chapitre <span class="gold">2</span><br><span style="text-transform:lowercase">Kolmanskop</span></p>
+						<img class="dotRight valign"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
+						<div class="lineRight valign"></div>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
-</div>
 </div>
 
-	<?php include_once("footer.php") ?>
+<?php include_once("footer.php") ?>

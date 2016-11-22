@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
@@ -7,18 +7,21 @@
 .mainNav {
   list-style-type: none;
   padding: 50px; }
-  .mainNav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    text-transform: uppercase; }
-    .mainNav li a:hover {
+  .mainNav .logoNav {
+    width: 180px; }
+    .mainNav .logoNav:hover {
+      opacity: 0.8; }
+  .mainNav li {
+    float: right; }
+    .mainNav li a {
+      display: inline-block;
+      text-align: center;
+      padding: 15px 30px;
+      transition: 0.3s;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .mainNav li a:hover {
+        color: #bd924e; }
+    .mainNav li.active a {
       color: #bd924e; }
-    .mainNav li a.logoNav {
-      font-family: 'The Heart';
-      text-transform: capitalize;
-      font-size: 30px; }
-  .mainNav li.active a {
-    color: #bd924e; }

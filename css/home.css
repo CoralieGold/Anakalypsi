@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
@@ -11,6 +11,22 @@
   transform: translateX(-50%) translateY(-10%); }
 #home h1 {
   font-size: 10em; }
+#home .logoIndex {
+  width: 750px; }
+#home .gLineRight {
+  content: '';
+  border-bottom: 2px solid #bd924e;
+  width: 20px;
+  position: absolute;
+  right: -20px;
+  top: 50%; }
+#home .gLineLeft {
+  content: '';
+  border-bottom: 2px solid #bd924e;
+  width: 20px;
+  position: absolute;
+  left: -20px;
+  top: 50%; }
 
 .line-through {
   position: relative;

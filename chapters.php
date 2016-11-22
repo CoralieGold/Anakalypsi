@@ -22,7 +22,7 @@
 				</div>
 				<div class="chapters_title">St Sulpice</div>
 			</div>
-			<div class="chapters_point"><img src="images/chap1_summary.jpg"></div>
+			<div class="chapters_point"><img src="images/chap1/chap1_small.jpg"></div>
 		</a>
 
 		<a href="chapter2.php" class="chapters one twelfth">
@@ -32,7 +32,7 @@
 				</div>
 				<div class="chapters_title">Kolmanskop</div>
 			</div>
-			<div class="chapters_point"><img src="images/chap2_summary.jpg"></div>
+			<div class="chapters_point"><img src="images/chap2/chap2_small.jpg"></div>
 		</a>
 
 		<a href="chapter3.php" class="chapters one twelfth">

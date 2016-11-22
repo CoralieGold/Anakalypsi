@@ -5,24 +5,29 @@
   list-style-type: none;
   padding: 50px;
 
+  .logoNav {
+    width: 180px;
+
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+
   li {
+
+    float: right;
 
     a {
       display: inline-block;
       text-align: center;
-      padding: 14px 16px;
+      padding: 15px 30px;
       transition: 0.3s;
-      font-size: 17px;
+      font-size: 16px;
       text-transform: uppercase;
+      font-weight: 600;
 
       &:hover {
         color: $gold;
-      }
-
-      &.logoNav {
-        font-family: 'The Heart';
-        text-transform: capitalize;
-        font-size: 30px;
       }
     }
 

@@ -12,6 +12,27 @@
   h1{
     font-size: 10em;
   }
+
+  .logoIndex{
+    width: 750px;
+  }
+
+  .gLineRight{
+    content: '';
+    border-bottom: 2px solid $gold;
+    width: 20px;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+  }
+  .gLineLeft{
+    content: '';
+    border-bottom: 2px solid $gold;
+    width: 20px;
+    position: absolute;
+    left: -20px;
+    top: 50%;
+  }
 }
 
 

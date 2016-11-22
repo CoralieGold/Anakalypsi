@@ -1,6 +1,6 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
@@ -47,21 +47,24 @@ body {
 .mainNav {
   list-style-type: none;
   padding: 50px; }
-  .mainNav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    text-transform: uppercase; }
-    .mainNav li a:hover {
+  .mainNav .logoNav {
+    width: 180px; }
+    .mainNav .logoNav:hover {
+      opacity: 0.8; }
+  .mainNav li {
+    float: right; }
+    .mainNav li a {
+      display: inline-block;
+      text-align: center;
+      padding: 15px 30px;
+      transition: 0.3s;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .mainNav li a:hover {
+        color: #bd924e; }
+    .mainNav li.active a {
       color: #bd924e; }
-    .mainNav li a.logoNav {
-      font-family: 'The Heart';
-      text-transform: capitalize;
-      font-size: 30px; }
-  .mainNav li.active a {
-    color: #bd924e; }
 
 /***********************
 ******** Général *******
@@ -100,15 +103,18 @@ h2 {
   color: #bd924e;
   text-transform: uppercase;
   text-align: left;
-  padding: 30px 0; }
+  padding: 30px 0;
+  font-size: 16px;
+  font-weight: 600; }
 
 p {
   text-align: left;
   color: #000;
-  line-height: 30px; }
+  line-height: 30px;
+  font-size: 16px; }
 
 .letter-spacing {
-  letter-spacing: 3px; }
+  letter-spacing: 4px; }
 
 .white {
   color: #ffffff; }
@@ -118,6 +124,9 @@ p {
 
 .bold {
   font-weight: 700; }
+
+.semibold {
+  font-weight: 600; }
 
 .uppercase {
   text-transform: uppercase; }

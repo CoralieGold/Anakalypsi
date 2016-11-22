@@ -50,16 +50,19 @@ h2 {
 	text-transform: uppercase;
 	text-align: left;
 	padding: 30px 0;
+	font-size: 16px;
+	font-weight: 600;
 }
 
 p{
 	text-align: left;
 	color: #000;
 	line-height: 30px;
+	font-size: 16px;
 }
 
 .letter-spacing{
-	letter-spacing: 3px;
+	letter-spacing: 4px;
 }
 
 .white{
@@ -72,6 +75,10 @@ p{
 
 .bold{
 	font-weight: 700;
+}
+
+.semibold{
+	font-weight: 600;
 }
 
 .uppercase{
