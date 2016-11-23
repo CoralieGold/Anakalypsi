@@ -13,12 +13,14 @@
 		</div>
 		<div class="row">
 			<div class="ten twelfths skip-two">
-				<h2 class="letter-spacing">Un voyage à travers du lorem ipsum</h2>
+				<h2 class="letter-spacing">Un voyage à travers les âges</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="eight twelfths skip-two">
-				<p class="white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p class="white">Anakálypsi est une réaction à ce monde où l’on ne peut s’isoler de l’humanité et ses tensions. Où les burn outs deviennent chose commune. Ce projet est créé pour rappeler aux personnes le souhaitant qu’il existe partout des endroits de calme, de vide et leur redonner le plaisir de découvrir. 
+Votre voyage commence par ce dossier et se termine dans un lieu secret, après avoir visité chaque lieu. Que découvrirez-vous à chaque étape de votre journée ? Une seule manière de le découvrir...
+Chaque étape n'apparaît pas sur votre chemin par hasard. Chacune a été choisie et préparée pour vous, votre histoire et sa beauté. </p>
 			</div>
 		</div>
 	</div>
