@@ -13,12 +13,13 @@
 		</div>
 		<div class="row">
 			<div class="eight twelfths skip-two">
-				<h2 class="letter-spacing">Eglise Saint Sulpice</h2>
+				<h2 class="letter-spacing">Tchernobyl</h2>
 			</div>
 		</div>
 		<div class="row">
 			<div class="eight twelfths skip-two">
-				<p class="white">Un voyage est sur le point de commencer. Laissez-vous tenter par l’évasion. Oubliez les soucis de votre vie, le bruit, le monde. Profitez. Respirez. Il est maintenant temps de partir.</p>
+				<p class="white">Vous êtes maintenant arrivé dans un lieu bien plus lugubre. Celui-ci est tout aussi silencieux que le précédent, mais il est maintenant temps de voir que la nature elle même peut s’exprimer. Celle de cette ville a expulsé ses habitants. Observez la. Profitez de cette scène figée dans le temps. La beauté n’est pas qu’agréable, cette ville abandonnée en est la preuve.
+				</p>
 			</div>
 		</div>
 		<div class="text">
@@ -28,40 +29,60 @@
 				</div>
 				<div class="one half">
 					<p class="valign">
-						Né dans la lumière, je vois des ombres passer. Caché sous des pierres, un ciel trop bas. Personne ne me voit, personne ne me comprend. Mais chaque jour, je vois la porte s’ouvrir. Les rayons passer par l’ouverture. Je suis là depuis des années. On ne me reconnaît pas, ne m’apprécie pas. Les ombres me poussent, les ombres s’agitent.
+						De temps en temps je croise de la vie. Mais préfère toujours m’en éloigner. Finalement, j’arrive à un nouveau désert. Celui-ci m’emplit de tristesse. Je ne comprend pas. Je marche dans ce désert de terre, que je ne peux m’empêcher de penser être un désert de mort. Je profite du paysage. Celui-ci est magnifique. Mais quelque chose ne correspond pas à ce que je vois. Ce désert n’en est pas un. C’est une ancienne ville. Je le reconnais maintenant. Mais quelque chose a éloigné la vie d’ici.
 					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="one centered half">
 					<p>
-						Mais je ne peux plus rester ici. Mon avancée inexorable vers la lumière continue. Il y a peu, j’étais encore scellé, dans ce cimetière de mes espoirs. N’osant m’approcher d’une quelconque sortie, le bruit m’effrayant bien trop. J’ai pourtant petit à petit quitté mon nid, acceptant ce que je voyais au dessus de moi. La lumière ici est épaisse, lourde.
+						Sur mon chemin, je vois des arbres. Quelque chose ne va pas. Ceux-ci sont couchés. Dorment-ils ? Je m’assois à côté, les observe. Le temps passe. Et passe encore. Je ne vois rien. Que se passe-t-il ? Ces arbres ne m’aiment-ils pas ?
 					</p>
 					<p>
-						Lorsque la nuit tombe, j’erre dans cet espace de pierre et de verre. Cette lumière aqueuse, d’un bleu opaque se reflétant contre les tissus, les chaises, le sol, les statues.
+						Je m’en approche, et comprend. Ce ne sont plus des lumières. Mais ça n’est pas tout. Leur chair reste fraîche. Quelque chose refuse à ces anciennes lumières de devenir ombre.
+					</p>
+					<p>
+						Peut être est-ce quelqu’un comme moi ? Je ne veux pas non plus d’ombre. Je n’en peux plus.
 					</p>
 				</div>
 			</div>
 			<div class="row valign-wrapper">
 				<div class="one half">
 					<p class="valign">
-						Je m’y déplace difficilement, comme entravé par l’air que j’y respire. Toujours plus simplement que le jour, mais jamais assez simplement. Je ne me suis jamais senti mieux, pourtant je sais que je ne peux rester comme cela. Ma motivation tient de cette pierre. Cette pierre haute et fine, géométrique, gravée. Je m’y comparais. Seul, stoïque. Je lui parlais, l’écoutait. Et ce jour je la vis s’illuminer. Les rayons habituellement bleutés cette fois étaient blancs et la recouvraient dans son intégralité. Elle me répondait. Il fallait que j’aille dans la lumière, que je quitte ces ombres.
+						Je continue ma visite. Cette fois-ci, je cherche à comprendre ce qui a causé ça. J’entre dans les bâtiments. Ceux-là sont bien plus récents. C’est une vie différente qu’était menée ici. Je commence à vouloir voir de la vie ici. Cet endroit n’a pas l’air d’avoir vécu assez longtemps.
 					</p>
-					<p>
-						C’est pourquoi je me répète. Je ne peux plus rester ici. J’attends que le passage s’ouvre à nouveau, et prends mon premier pas.
+					<p class="valign">
+						J’entre ici, une table, des chaises, mais aussi des meubles, des fournitures. Je sors par là et m’arrête. Trois chaises sont posées devant une large fenêtre. Celle-ci ouvre sur d’autres bâtiments. J’observe. Je m’assois. Je me sens seul…
 					</p>
 				</div>
 				<div class="one half">
-					<img src="images/chap1/chap1_img2.jpg" alt="" />
+					<img src="images/chap3/chap3_img2.jpg" alt="" />
+				</div>
+			</div>
+			<div class="row valign-wrapper">
+				<div class="one half">
+					<img src="images/chap3/chap3_img3.jpg" alt="" />
+				</div>
+				<div class="one half">
+					<p class="valign">
+						Je continue, et voit par terre d’étranges morceaux de bois. Très fins. Marqués. Tous sont de la même taille. Ils se froissent lorsque j’y pose mon pied. Crient lorsque je les soulève. Il y en a partout au sol. Certains sont déchirés, d’autres pliés, d’autres encore organisés en piles.
+					</p>
+					<p class="valign">
+						Ceux-ci me mènent vers une sortie. Ouverte sur de nouveaux arbres. Ceux-ci sont lumineux. Leurs chairs palpitent. J’avance à travers ce groupe, profitant de leurs pulsations accueillantes. J’arrive maintenant sur de singulières structures, toujours de métal, mais sortant de ce que je vois depuis que je suis ici.
+					</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="one centered half">
 					<p>
-						Mais très vite, je tombe des nues. Dehors n’est que bruit, violence, peur. Je cours. Je ne me retourne pas. Je ne sais pas combien de temps ma fuite inexorable dure. Mais je cours. Jusqu’à ne plus entendre personne.
+						Une structure en forme de roue, composé de petites cabines. Je devine que cette roue tournait et permettait de se rapprocher de la lumière. A côté, de petits engins motorisés sont couverts de végétation. Je peux sentir ici un sentiment que j’ai déjà vécu. Un sentiment chaud et agréable. Les ombres qui se trouvaient aussi le ressentaient aussi.
 					</p>
 					<p>
-						Je suis maintenant dans un désert.
+						Je m’amuse à regarder et à nouveau imaginer. Imaginer… Mais cela ne me contente plus.
+						Je décide donc de continuer mon voyage. Et je marche. Je marche encore.
+					</p>
+					<p>
+						Jusqu’à arriver à des structures plus qu’étrange.
 					</p>
 				</div>
 			</div>
@@ -74,29 +95,32 @@
 			</div>
 			<div class="row">
 				<div class="eight twelfths skip-two">
-					<p class="white">L’Eglise Saint Sulpice se trouve au centre de Paris. Ce lieu culte faisant partie du Da Vinci Tour, abritant dans sa crypte une ancienne église toujours conservée est la première étape du voyage Anakálypsi.<br>
-						Le lieu est situé 2 rue Garancière, dans le 6eme arrondissement de Paris en France.
+					<p class="white">
+						Tchernobyl est mondialement connue pour sa catastrophe nucléaire de 86 ayant causé la mort de 4 000 personnes et causé des cancers par radiation à plus de 200 000 personnes.<br>
+						Sa population actuelle est de 800 habitants. Une partie de la ville a été décontaminée et est donc une étape incontournable d’Anakálypsi.<br>
+						Tchernobyl est une ville de l’oblast de Kiev, en Ukraine. Celle-ci se trouve à 96km au nord de Kiev.
+
 					</p>
 				</div>
 			</div>
 		</div>
 		<div class="map-chapter">
-			<img src="images/chap1/chap1_map.jpg" alt="" />
+			<img src="images/chap3/chap3_map.jpg" alt="" />
 		</div>
 		<div class="next-chapter">
 			<div class="row">
 				<div class="one half">
-					<a href="index.php" class="valign-wrapper">
+					<a href="chapter2.php" class="valign-wrapper">
 						<div class="lineLeft valign"></div>
 						<div class="dotLeft valign"></div>
-						<p class="linkLeft valign white uppercase letter-spacing semibold">Accueil</p>
+						<p class="linkLeft valign white uppercase letter-spacing semibold">Chapitre<span class="gold">2</span></p>
 					</a>
 				</div>
 
 				<div class="one half">
-					<a href="chapter2.php" class="valign-wrapper">
-						<p class="linkRight valign white uppercase letter-spacing semibold">Chapitre <span class="gold">2</span><br><span style="text-transform:lowercase">Kolmanskop</span></p>
-						<img class="dotRight valign"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
+					<a href="chapter4.php" class="valign-wrapper">
+						<p class="linkRight valign white letter-spacing semibold"><span class="uppercase">Chapitre</span><span class="gold">4</span><br>Green Village</p>
+						<img class="dotRight valign"src="images/chap4/chap4_small.jpg" alt="Aller au chapitre 4"/>
 						<div class="lineRight valign"></div>
 					</a>
 				</div>

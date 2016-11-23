@@ -3,10 +3,11 @@
 /* Menu principal */
 .mainNav {
   list-style-type: none;
-  padding: 50px;
+  padding: 20px 50px 50px;
 
   .logoNav {
     width: 180px;
+    transition: 0.3s;
 
     &:hover{
       opacity: 0.8;

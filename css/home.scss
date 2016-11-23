@@ -22,7 +22,7 @@
     border-bottom: 2px solid $gold;
     width: 20px;
     position: absolute;
-    right: -20px;
+    right: -25px;
     top: 50%;
   }
   .gLineLeft{
@@ -30,7 +30,7 @@
     border-bottom: 2px solid $gold;
     width: 20px;
     position: absolute;
-    left: -20px;
+    left: -25px;
     top: 50%;
   }
 }
@@ -45,9 +45,9 @@
     &::before {
       content: '';
       border-bottom: 2px solid $gold;
-      width: 100%;
+      width: 110%;
       position: absolute;
-      right: 0;
+      right: -20px;
       top: 50%;
     }
   }

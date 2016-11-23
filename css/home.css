@@ -18,14 +18,14 @@
   border-bottom: 2px solid #bd924e;
   width: 20px;
   position: absolute;
-  right: -20px;
+  right: -25px;
   top: 50%; }
 #home .gLineLeft {
   content: '';
   border-bottom: 2px solid #bd924e;
   width: 20px;
   position: absolute;
-  left: -20px;
+  left: -25px;
   top: 50%; }
 
 .line-through {
@@ -35,7 +35,7 @@
   .line-through:hover::before {
     content: '';
     border-bottom: 2px solid #bd924e;
-    width: 100%;
+    width: 110%;
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 50%; }

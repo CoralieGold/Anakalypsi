@@ -6,9 +6,10 @@
 /* Menu principal */
 .mainNav {
   list-style-type: none;
-  padding: 50px; }
+  padding: 20px 50px 50px; }
   .mainNav .logoNav {
-    width: 180px; }
+    width: 180px;
+    transition: 0.3s; }
     .mainNav .logoNav:hover {
       opacity: 0.8; }
   .mainNav li {

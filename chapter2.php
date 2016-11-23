@@ -83,29 +83,30 @@
 			</div>
 			<div class="row">
 				<div class="eight twelfths skip-two">
-					<p class="white">L’Eglise Saint Sulpice se trouve au centre de Paris. Ce lieu culte faisant partie du Da Vinci Tour, abritant dans sa crypte une ancienne église toujours conservée est la première étape du voyage Anakálypsi.<br>
-						Le lieu est situé 2 rue Garancière, dans le 6eme arrondissement de Paris en France.
+					<p class="white">Kolmanskop est un village situé en Namibie Ce lieu lieu a été fondé au XIXème siècle par des colons allemands et a eu un grand succès dans les années 1920 grâce à l'exploitation du diamant. Kolmanskop a ensuite été petit à petit abandonné au XXème siècle et est aujourd’hui considéré comme un village fantôme, même si quelques mineurs y travaillent encore.
+						<br>
+						Le lieu est situé au sud ouest de la Namibie, près de l’Afrique du Sud.
 					</p>
 				</div>
 			</div>
 		</div>
 		<div class="map-chapter">
-			<img src="images/chap1/chap1_map.jpg" alt="" />
+			<img src="images/chap2/chap2_map.jpg" alt="" />
 		</div>
 		<div class="next-chapter">
 			<div class="row">
 				<div class="one half">
-					<a href="index.php" class="valign-wrapper">
+					<a href="chapter1.php" class="valign-wrapper">
 						<div class="lineLeft valign"></div>
 						<div class="dotLeft valign"></div>
-						<p class="linkLeft valign white uppercase letter-spacing semibold">Accueil</p>
+						<p class="linkLeft valign white uppercase letter-spacing semibold">Chapitre <span class="gold">1</span></p>
 					</a>
 				</div>
 
 				<div class="one half">
-					<a href="chapter2.php" class="valign-wrapper">
-						<p class="linkRight valign white uppercase letter-spacing semibold">Chapitre <span class="gold">2</span><br><span style="text-transform:lowercase">Kolmanskop</span></p>
-						<img class="dotRight valign"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
+					<a href="chapter3.php" class="valign-wrapper">
+						<p class="linkRight valign white letter-spacing semibold"><span class="uppercase">Chapitre</span><span class="gold">3</span><br>Tchernobyl</p>
+						<img class="dotRight valign"src="images/chap3/chap3_small.jpg" alt="Aller au chapitre 3"/>
 						<div class="lineRight valign"></div>
 					</a>
 				</div>
