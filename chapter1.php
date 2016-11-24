@@ -8,7 +8,7 @@
 
 		<div class="row">
 			<div class="eleven twelfths skip-one">
-				<h1>Chapitre <span class="gold">1</span></h1>
+				<h1>Chapitre <span class="gold">01</span></h1>
 			</div>
 		</div>
 		<div class="row">
@@ -95,7 +95,7 @@
 
 				<div class="one half">
 					<a href="chapter2.php" class="valign-wrapper">
-						<p class="linkRight valign white letter-spacing semibold"><span class="uppercase">Chapitre</span><span class="gold">2</span><br>Kolmanskop</p>
+						<p class="linkRight valign white letter-spacing semibold"><span class="uppercase">Chapitre</span><span class="gold">02</span><br>Kolmanskop</p>
 						<img class="dotRight valign"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
 						<div class="lineRight valign"></div>
 					</a>
