@@ -8,7 +8,7 @@
 
 		<div class="row">
 			<div class="eleven twelfths skip-one">
-				<h1>Chapitre secret</h1>
+				<h1>Chapitre 11</h1>
 			</div>
 		</div>
 		<div class="row">

@@ -127,24 +127,42 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		$("div.chapters_content").css("opacity", "0");
-		$(this).siblings("div.chapters_content").css("margin", "0px");
-		$(this).siblings("div.chapters_point").css("margin-top", "0px");
+
+		if (matchMedia) {
+		  var mq = window.matchMedia("(max-width: 1024px)");
+		  mq.addListener(WidthChange);
+		  WidthChange(mq);
+		}
+
+		// media query change
+		function WidthChange(mq) {
+		  if (mq.matches) {
+		   	$("div.chapters_content").css("opacity", "1");
+				$(this).siblings("div.chapters_content").css("margin", "0px");
+				$(this).siblings("div.chapters_point").css("margin-top", "0px");
+		  }
+		  else {
+		   	$("div.chapters_content").css("opacity", "0");
+				$(this).siblings("div.chapters_content").css("margin", "0px");
+				$(this).siblings("div.chapters_point").css("margin-top", "0px");
 
 
-		$(".hover_point_space").mouseover(function() {
-			$(this).siblings("div.chapters_content").css("opacity", "1");
-			$(this).siblings("div.chapters_content").css("margin", "-10px 0 10px 0");
-		});
+				$(".hover_point_space").mouseover(function() {
+					$(this).siblings("div.chapters_content").css("opacity", "1");
+					$(this).siblings("div.chapters_content").css("margin", "0");
+				});
 
-		$(".hover_point_space").mouseout(function() {
-			$(this).siblings("div.chapters_content").css("opacity", "0");
-			$(this).siblings("div.chapters_content").css("margin", "0px 0 0px 0");
-		});
+				$(".hover_point_space").mouseout(function() {
+					$(this).siblings("div.chapters_content").css("opacity", "0");
+					$(this).siblings("div.chapters_content").css("margin", "0");
+				});
 
-		$('.chapters_secret').on('click', function() {
-			window.location.href = "chapter_secret.php";
-		});
+				$('.chapters_secret').on('click', function() {
+					window.location.href = "chapter_secret.php";
+				});
+		  }
+
+		}
 
 	});
 

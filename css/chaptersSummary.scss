@@ -80,6 +80,7 @@ body {
 					width: 16px;
 					height: 16px;
 					border-radius: 8px;
+					margin-top: 0px;
 				}
 
 				.chapters_point {
@@ -132,4 +133,41 @@ body {
 			}
 		}
 	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	#line {
+		opacity: 1;
+		margin-top: 0px !important;
+		width: 3px !important;
+		height: 100% !important;
+		margin-left: calc(50% - 95px);
+	}
+
+	.chapters {
+		width: 200px !important;
+	  display: block; 
+	  margin-left: calc(50% - 100px);
+	  margin-right: calc(50% - 100px);
+	}
+
+	.chapters_point img {
+		opacity: 1 !important;
+		-webkit-transform: scale(4) !important;
+		-moz-transform: scale(4) !important;
+		-o-transform: scale(4) !important;
+		-ms-transform: scale(4) !important;
+		transform: scale(4) !important;
+	}
+
+	.hover_point_space {
+		float: left;
+	}
+
+  .chapters_content {
+  	opacity: 1;
+  	float: right;
+  	margin-top: -10px !important;
+  }
 }
