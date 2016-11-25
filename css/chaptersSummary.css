@@ -1,13 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
-}
-
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 #summary {
   width: 100%;
