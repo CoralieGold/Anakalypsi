@@ -25,10 +25,10 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap11/chap11_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je termine mon inexorable voyage. Je retourne à l’origine de mes maux. Les ombres ne l’habitent plus. Seules des créatures faites de chair et de tissu. De couleur et d’odeur.
 					</p>
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je marche maintenant sur ses toits, voyant la ville telle qu’elle est. Une ville. Un carrefour où la vie fleurit. Certains appellent cela cité, d’autres capitale. Mais ils ne voit pas tout cela de mes yeux. Cette ville n’est rien. Toutes ces lumières ne sont que des lucioles tentant d’éclairer un soleil. Ce soleil fait de petites touches. Ce soleil incomplet. Certains endroits n’y sont pas éclairés, et heureusement. Tout a besoin de sa part d’ombre, mais nous avons besoin de sa part de lumière.<br>
 						Leur ville, leur pays, leur continent, je les aime tous. Car tout ça n’est qu’un tout. Et ce tout, c’est chez moi.
@@ -46,18 +46,18 @@
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						J’aime ces créatures. J’aime ce lieu. J’aime ce bruit. Aujourd’hui, je me décide enfin. Je vais moi aussi faire du bruit.<br>
 						Voilà plus haut ma tentative. Je partage mon histoire afin de permettre aux lieux de faire à nouveau du bruit pour d’autres créatures. Et pour que celles-ci les découvrent, et les apprécient.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap11/chap11_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je retourne bientôt à la terre, et j’y retourne avec un sourire. Vous êtes des lumières, et je deviendrai ombre.
 					</p>

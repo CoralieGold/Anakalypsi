@@ -24,10 +24,10 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:180px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap8/chap8_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						En les suivant, je suis mené un jour jusqu’à un nouvel espace sans bruit. Une structure énorme. Personne ne m’y suit. A l’entrée, des visages m’observent, me jugeant de leur silence assourdissant. Je me presse d’entrer, mal à l’aise.
 					</p>
@@ -37,14 +37,14 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Un grand espace circulaire fait face à des centaines de sièges. Les créatures devaient venir ici observer ce qu’il se passait où je me trouve. En marchant, je suis pris de stupeur. La salle fait du bruit à chacun de mes pas. A chaque petit choc de mes pieds contre le sol. Chaque frottement. Tout a l’air d’être rythmé par mes mouvements.
 					</p>
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Les deux énormes rangées de sièges m’observent. Certains me regardent de haut, d’autres m’admirent. Je lève les yeux et aperçoit des créatures géantes, figées dans leurs actions. Elles sont silencieuses, colorées, plates. Elle me rappellent en un sens ces palmiers que j’avais vus lors de ma première escale, ne voulant pas prendre du volume, attachés à leur mur et leur immobilité.
 					</p>
@@ -52,12 +52,12 @@
 						Ces créatures m’amusent. Les sièges me paraissent maintenant moins durs. Je trottine entre les rangs. Danse. M’assied. Saute. Les sièges acceptent ma présence à leur manière, certains restent immobiles, d’autres me saluent en grinçant.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap8/chap8_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je m’immobilise. Les sièges ne font rien. Je les active. Je les fait grincer.
 					</p>

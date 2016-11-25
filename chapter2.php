@@ -23,10 +23,10 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap2/chap2_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Le silence est enfin là. Je sens la brise se frotter contre ma peau. La morsure du soleil. Je laisse le sable m’enlacer. Je continue petit à petit mon périple, profitant de chaque instant de calme s’offrant à moi.
 					</p>
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Horreur. Ce qui n’était de loin qu’un amas de pierre est en fait une autre de ses structures immondes, remplies de bruit et de peur. Je m’immobilise, espère qu’aucune ombre ne me trouve. Mais aucun bruit ne se fait entendre. Personne ne vient me déranger.
 					</p>
@@ -46,7 +46,7 @@
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je vois pour la première fois cette vie qui me dégoûte tant d’un autre oeil. Celle-ci ne m’agresse pas. Je l’observe longtemps. Découvre ces objets du quotidiens laissés à leur sort.
 					</p>
@@ -57,12 +57,12 @@
 						Le vent souffle, laissant entrer par la fenêtre ces rayons jaunes et brûlants. Je continue et m’arrête devant une porte. Une seule ? Non. Celles-ci sont alignées. Les murs colorés me donne cette sensation si particulière. Je vois quelque chose, et cela m’intrigue.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap2/chap2_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						En continuant ma route j’arrive devant ce sol bleu, mouvant. Son aller-retour inexorable est reposant. Son grondement apaisant. Je m'assois et le regarde quelques temps. La lumière se calme, est moins agressive. Je vois encore une structure abandonnée. J’y entre, et par cette porte, je regarde cette étendue bleue.
 					</p>

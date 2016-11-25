@@ -24,10 +24,10 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap4/chap4_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Celles-ci sont vertes. Elles sont vivantes. Je cours. Désireux de rencontrer ce peuple en accord avec la nature. J’entre en trombe dans une maison. Rien.<br>
 						Je regarde autour de moi. Cette vie colorée recouvre les murs, les meubles, tout. Je rebrousse chemin, me retrouve sur cette allée de pierre, entourée de ces formes vertes. Je suis le chemin, observant autour de moi. Toujours aucun bruit. Qui pouvait donc avoir vécu là ?
@@ -35,24 +35,24 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je visite chaque maison une par une. Toujours rien. Commençant à accepter la solitude, je me prend un à jeu des plus particulier. Je m’amuse à imaginer les ombres vivants ici. Comment se comportaient-elles ? Mangeaient-elles ? Buvaient-elles ? Que faisaient-elles lorsqu’elles s’ennuyaient ?
 					</p>
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je continue ma visite. Cette fois-ci, je cherche à comprendre ce qui a causé ça. J’entre dans les bâtiments. Ceux-là sont bien plus récents. C’est une vie différente qu’était menée ici. Je commence à vouloir voir de la vie ici. Cet endroit n’a pas l’air d’avoir vécu assez longtemps.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap4/chap4_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						J’aperçois un escalier à moitié dissimulé par la végétation. Je décide de le prendre. Celui-ci m’emmène à un point surélevé de cette île si particulière. Je peu y voir le fleuve le contourner, les structures se répandre à perte de vue. Mais pas de bruit.<br>
 						Pour la première fois, j’ai envie de voir une ombre. Je continue d’avancer à travers les structures, ne distinguant pas les pierres de la végétation.

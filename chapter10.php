@@ -25,24 +25,24 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap10/chap10_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Sur mon chemin, je trouve une de ces structures métalliques qu’utilisent les créatures pour se déplacer. Je m’y installe. J’attend. Je mange. Je dors. Je bois. Mais rien ne bouge. Personne n’y entre. Y a-t-il un problème ?
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je visite la structure. Commençant par visiter l’extérieur, les traces de rouille dorant l’apparence de cette étrange structure. J’arrive à l’avant, ou est-ce l’arrière ? Je crois lui distinguer des yeux. Mais ceux-ci ne bougent pas. Je vois une entrée, elle mène à une salle différente de toutes les autres que j’ai pu apercevoir pour l’instant.
 					</p>
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Uniquement faite de métal, cette pièce est bien plus complexe. Des volants, des poignées, des cadrans, tous rouillés, vieillis. Je peux apercevoir par les vitres le paysage alentour. Je tente d’activer certaines choses, réveiller la créature. Certaines pièces gémissent lorsque je les actionne. Mais rien d’autre ne se passe.
 					</p>
@@ -50,12 +50,12 @@
 						Je décide de sortir de cette salle étrange et recommence ma visite. Les wagons ne sont pas tous similaires. Les premiers ont de beaux sièges en tissu kaki, certains sont déchirés, d’autres ont su rester intacts. Le sol est sale et poussiéreux. Les vitres sont vieilles, s’activent encore via les poignées qu’elles surplombent, mais rechignent à l’acte.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap10/chap10_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je m'assois sur un des sièges abîmés. Le métal rouillé. L’odeur de poussière me rappelle les changements que j’ai vécu. Je me rend compte de qui était la créature qui avait originellement fui sa prison. Je comprend maintenant qui va y retourner.
 					</p>

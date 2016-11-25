@@ -25,17 +25,17 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap9/chap9_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						En suivant ces créatures, je traverse à nouveau l’étendue bleue. J’arrive à une immense structure somptueuse. Elle fait fièrement face à celle-ci, la surplombant de ton son corps. Derrière elle, des jardins se cachent au milieu d’une place. Une douce mélodie se fait entendre.
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Je me retourne, pour partager ma découverte, lorsque je me rend compte que plus personne n’est là. Je reste donc quelques instants, sur cette place de marbre, à écouter cette mélodie cristalline, avant d’entrer dans le bâtiment. Le vent passe à travers les arches, le sel caresse ma peau. La mélodie accompagne la brise. En continuant mon chemin, je découvre l’origine de la mélodie, des lustres en cristal sont balancés par le vent, émettant des bruits clairs et doux.
 					</p>
@@ -45,17 +45,17 @@
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je continue ma visite, cherchant les créatures qui m’avaient accompagné jusque là. Après des jours, j’en aperçois une au fond d’un couloir. J’accoure, elle aussi. Je la salue. Elle aussi. Je la regarde, silencieux. Elle aussi. M’imite-t-elle ? Je tente quelques mouvements complexes. Elle me suit. Je décide donc de m’approcher, et tend mes bras. Elle tend les bras aussi. Nos doigts se touchent. Les siens sont étonnamment froids et durs.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap9/chap9_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Nous nous sourions, nous apprécions. Je n’ose émettre de bruit, de peur de la faire fuir. Son regard est doux, je n’arrive pas à m’en détacher. Qui est cette chose ? Je continue mes expérimentations.
 					</p>

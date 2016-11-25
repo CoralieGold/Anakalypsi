@@ -24,17 +24,17 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap3/chap3_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						De temps en temps je croise de la vie. Mais préfère toujours m’en éloigner. Finalement, j’arrive à un nouveau désert. Celui-ci m’emplit de tristesse. Je ne comprend pas. Je marche dans ce désert de terre, que je ne peux m’empêcher de penser être un désert de mort. Je profite du paysage. Celui-ci est magnifique. Mais quelque chose ne correspond pas à ce que je vois. Ce désert n’en est pas un. C’est une ancienne ville. Je le reconnais maintenant. Mais quelque chose a éloigné la vie d’ici.
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Sur mon chemin, je vois des arbres. Quelque chose ne va pas. Ceux-ci sont couchés. Dorment-ils ? Je m’assois à côté, les observe. Le temps passe. Et passe encore. Je ne vois rien. Que se passe-t-il ? Ces arbres ne m’aiment-ils pas ?
 					</p>
@@ -47,7 +47,7 @@
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je continue ma visite. Cette fois-ci, je cherche à comprendre ce qui a causé ça. J’entre dans les bâtiments. Ceux-là sont bien plus récents. C’est une vie différente qu’était menée ici. Je commence à vouloir voir de la vie ici. Cet endroit n’a pas l’air d’avoir vécu assez longtemps.
 					</p>
@@ -55,15 +55,15 @@
 						J’entre ici, une table, des chaises, mais aussi des meubles, des fournitures. Je sors par là et m’arrête. Trois chaises sont posées devant une large fenêtre. Celle-ci ouvre sur d’autres bâtiments. J’observe. Je m’assois. Je me sens seul…
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap3/chap3_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap3/chap3_img3.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je continue, et voit par terre d’étranges morceaux de bois. Très fins. Marqués. Tous sont de la même taille. Ils se froissent lorsque j’y pose mon pied. Crient lorsque je les soulève. Il y en a partout au sol. Certains sont déchirés, d’autres pliés, d’autres encore organisés en piles.
 					</p>
@@ -73,7 +73,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Une structure en forme de roue, composé de petites cabines. Je devine que cette roue tournait et permettait de se rapprocher de la lumière. A côté, de petits engins motorisés sont couverts de végétation. Je peux sentir ici un sentiment que j’ai déjà vécu. Un sentiment chaud et agréable. Les ombres qui se trouvaient aussi le ressentaient aussi.
 					</p>

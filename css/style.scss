@@ -105,3 +105,15 @@ p{
 		display: block;
 	}
 }
+
+@media screen and (max-width: 1024px) {
+	.bg-img {
+		background-color: #071C36;
+		background-image: none;
+	}
+
+	.gold-border {
+		border: none;
+	}
+	
+}

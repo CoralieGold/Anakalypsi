@@ -23,17 +23,17 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap1/chap1_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Né dans la lumière, je vois des ombres passer. Caché sous des pierres, un ciel trop bas. Personne ne me voit, personne ne me comprend. Mais chaque jour, je vois la porte s’ouvrir. Les rayons passer par l’ouverture. Je suis là depuis des années. On ne me reconnaît pas, ne m’apprécie pas. Les ombres me poussent, les ombres s’agitent.
 					</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Mais je ne peux plus rester ici. Mon avancée inexorable vers la lumière continue. Il y a peu, j’étais encore scellé, dans ce cimetière de mes espoirs. N’osant m’approcher d’une quelconque sortie, le bruit m’effrayant bien trop. J’ai pourtant petit à petit quitté mon nid, acceptant ce que je voyais au dessus de moi. La lumière ici est épaisse, lourde.
 					</p>
@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Je m’y déplace difficilement, comme entravé par l’air que j’y respire. Toujours plus simplement que le jour, mais jamais assez simplement. Je ne me suis jamais senti mieux, pourtant je sais que je ne peux rester comme cela. Ma motivation tient de cette pierre. Cette pierre haute et fine, géométrique, gravée. Je m’y comparais. Seul, stoïque. Je lui parlais, l’écoutait. Et ce jour je la vis s’illuminer. Les rayons habituellement bleutés cette fois étaient blancs et la recouvraient dans son intégralité. Elle me répondait. Il fallait que j’aille dans la lumière, que je quitte ces ombres.
 					</p>
@@ -51,12 +51,12 @@
 						C’est pourquoi je me répète. Je ne peux plus rester ici. J’attends que le passage s’ouvre à nouveau, et prends mon premier pas.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap1/chap1_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Mais très vite, je tombe des nues. Dehors n’est que bruit, violence, peur. Je cours. Je ne me retourne pas. Je ne sais pas combien de temps ma fuite inexorable dure. Mais je cours. Jusqu’à ne plus entendre personne.
 					</p>

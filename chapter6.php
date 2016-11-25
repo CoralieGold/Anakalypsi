@@ -24,10 +24,10 @@
 		</div>
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap6/chap6_img1.jpg" alt="" />
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						En suivant la lumière, je trouve un point de vert dans cette mer de bleu. Je m’en approche. Je ne peux contenir ma surprise lorsque je vois cet objet de plus près. Une nouvelle structure, mais celle-ci flotte. Je ne comprend pas. Je monte à bord.
 					</p>
@@ -37,24 +37,24 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						J’erre dans les méandres de cette bête aquatique. Dans ces entrailles, de la rouille et quelques signes de vie se cachent ci et là. Les arbres dépassant de la structure poignardent son ventre, cherchant désespérément à atteindre le sol. De temps en temps, cette créature laisse aller un cri métallique, étrangement plaintif.
 					</p>
 				</div>
 			</div>
 			<div class="row valign-wrapper">
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<p class="valign">
 						Cependant, ni le vent, ni la pluie, ni les vagues. Ni même quoi que ce soit d’autre, n’est capable de le faire se déplacer, ne serait-ce que l’espace d’un instant, qu’importe la distance. Cette bête est majestueuse, ancienne, je comprend son rythme. Je me plais à penser que cette créature m’apprécie, et je l’apprécie en retour. Je décide de lui tenir compagnie quelque temps.
 					</p>
 				</div>
-				<div class="one half">
+				<div class="one half one-up-ipad">
 					<img src="images/chap6/chap6_img2.jpg" alt="" />
 				</div>
 			</div>
 			<div class="row">
-				<div class="one centered half">
+				<div class="one centered half one-up-ipad">
 					<p>
 						Jusqu’au jour où je vois cette plus petite structure passer non loin. Encore une structure flottante. Mais celui qui conduit ça n’est pas une ombre. Qu’est-il ? Je décide de le suivre, mais le perd rapidement de vue. Je continue dans la direction où je l’ai aperçu pour la dernière fois.
 					</p>

@@ -133,3 +133,19 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .chapter{
+    &.one, &.two, &.three, &.four, &.five, &.six, &.seven, &.height, &.nine, &.ten, &.eleven, .en-bref, .next-chapter {
+      background: none $blue;
+    }
+    .map-chapter {
+      display: none;
+    }
+  }
+
+  .one-up-ipad {
+    width: 100% !important;
+  }
+
+}
