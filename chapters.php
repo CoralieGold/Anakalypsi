@@ -127,7 +127,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-
 		if (matchMedia) {
 		  var mq = window.matchMedia("(max-width: 1024px)");
 		  mq.addListener(WidthChange);
@@ -140,11 +139,15 @@
 		   	$("div.chapters_content").css("opacity", "1");
 				$(this).siblings("div.chapters_content").css("margin", "0px");
 				$(this).siblings("div.chapters_point").css("margin-top", "0px");
+
+				$("div.chapters_content").on('click', function() {
+					window.location.href = $(this).siblings("div.hover_point_space").children(".chapters_point").attr("href");
+				});
 		  }
 		  else {
 		   	$("div.chapters_content").css("opacity", "0");
-				$(this).siblings("div.chapters_content").css("margin", "0px");
-				$(this).siblings("div.chapters_point").css("margin-top", "0px");
+				$("div.chapters_content").css("margin", "0px");
+				$("div.chapters_point").css("margin-top", "0px");
 
 
 				$(".hover_point_space").mouseover(function() {
@@ -161,7 +164,6 @@
 					window.location.href = "chapter_secret.php";
 				});
 		  }
-
 		}
 
 	});
