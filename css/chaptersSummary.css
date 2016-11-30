@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
+}
+
 /*COLORS*/
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+}
 
 #summary {
   width: 100%;
@@ -131,6 +134,16 @@ body {
   margin-top: 12px;
 }
 
+.box {
+  display: none;
+  z-index: 101;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1024px) {
   #line {
     opacity: 1;
@@ -160,5 +173,11 @@ body {
     opacity: 1;
     float: right;
     margin-top: -10px !important;
+  }
+  .chapters_secret {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 8px !important;
+    margin-top: 0px !important;
   }
 }

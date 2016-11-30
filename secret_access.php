@@ -1,0 +1,1 @@
+<?php  $password_secret_chapter = "je quitte l'ombre et m'élève vers la lumière"; ?>

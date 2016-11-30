@@ -135,6 +135,15 @@ body {
 	}
 }
 
+.box {
+	display: none;
+	z-index: 101;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
 
 @media screen and (max-width: 1024px) {
 	#line {
@@ -170,4 +179,11 @@ body {
   	float: right;
   	margin-top: -10px !important;
   }
+
+  .chapters_secret {
+		width: 16px !important;
+		height: 16px !important;
+		border-radius: 8px !important;
+		margin-top: 0px !important;
+	}
 }
