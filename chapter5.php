@@ -29,7 +29,7 @@
 				</div>
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						J’aurai presque pensé trop longtemps. Mais j’arrive maintenant dans de nouvelles zones. Ici les structures sont plus précises. Plus belles. Mais la vie continue de l’entourer. Je rentre dans de nouveaux lieux. Je ne sais pas ce qui m’y pousse. Mais je les respecte. La végétation ici est moins présente. Mais autre chose vit ici. Quelque chose qui me dépasse. Qui s’élève. Qui me fait me sentir petit.
+						J’aurai presque pensé trop longtemps. Mais j’arrive maintenant dans de nouvelles zones. Ici les structures sont plus précises. Plus belles. Mais la vie continue de l’entourer. Je rentre dans de nouveaux lieux. Je ne sais pas ce qui m’y pousse. Mais je les respecte. La végétation ici est moins présente. Mais autre chose vit ici. Quelque chose qui me dépasse. Qui s’<span class="secret-password">élève</span>. Qui me fait me sentir petit.
 					</p>
 				</div>
 			</div>
@@ -39,7 +39,7 @@
 						Je reconnais ce sentiment. Je le sentais aussi à ma première prison. Mais cette fois-ci rien ne le contredit. Je n’ai que ce sentiment d’appartenir à quelque chose de plus grand. Je profite de cette présence rassurante.
 					</p>
 					<p>
-						Je ne peux m’empêcher de retourner sur mes pas. Je suis entré dans ce lieu sans y faire attention. Je suis sous un puit de lumière, des ombres légèrement différentes de mes anciens geôliers m’entourent. Celles-ci sont silencieuses. Elle me regardent, leur visage bienveillant me souhaitant la bienvenue. Je reste là, pétrifié. Que faire si elles bougent ? Si elles s’énervent. La lumière s’estompe petit à petit, puis retourne. Les ombres n’ont toujours pas bougé. Je ne suis pas sûr de comprendre.
+						Je ne peux m’empêcher de retourner sur mes pas. Je suis entré dans ce lieu sans y faire attention. Je suis sous un puit de <span class="secret-password">lumière</span>, des ombres légèrement différentes de mes anciens geôliers m’entourent. Celles-ci sont silencieuses. Elle me regardent, leur visage bienveillant me souhaitant la bienvenue. Je reste là, pétrifié. Que faire si elles bougent ? Si elles s’énervent. La lumière s’estompe petit à petit, puis retourne. Les ombres n’ont toujours pas bougé. Je ne suis pas sûr de comprendre.
 					</p>
 				</div>
 			</div>
@@ -62,7 +62,7 @@
 						J’ai à nouveau envie de rencontrer ces ombres. Les fondateurs de cet endroit. Je reste persuadé que ce ne sont pas celles que j’ai pu voir à l’intérieur, je n’ai pas vu de vie en elle. Comment peuvent-elles créer autant de lumière ?
 					</p>
 					<p>
-						Je continue mon chemin, suivant la lumière. Je suis maintenant persuadé qu’elles me mèneront aux ombres. Je marche dans un climat plus froid, plus visqueux. Mes pieds ne touchent plus le sol. Je me sens remonter vers la surface de cette matière si fraîche.
+						Je continue mon chemin, suivant la lumière. Je suis maintenant persuadé qu’elles me mèneront aux ombres. Je marche dans un climat plus froid, plus visqueux. Mes pieds ne touchent plus le sol. Je me sens remonter <span class="secret-password">vers</span> la surface de cette matière si fraîche.
 					</p>
 				</div>
 			</div>

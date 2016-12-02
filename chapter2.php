@@ -38,7 +38,7 @@
 			<div class="row">
 				<div class="one centered half one-up-ipad">
 					<p>
-						Horreur. Ce qui n’était de loin qu’un amas de pierre est en fait une autre de ses structures immondes, remplies de bruit et de peur. Je m’immobilise, espère qu’aucune ombre ne me trouve. Mais aucun bruit ne se fait entendre. Personne ne vient me déranger.
+						Horreur. Ce qui n’était de loin qu’un amas de pierre est en fait une autre de ses structures immondes, remplies de bruit et de peur. Je m’immobilise, espère qu’aucune <span class="secret-password">ombre</span> ne me trouve. Mais aucun bruit ne se fait entendre. Personne ne vient me déranger.
 					</p>
 					<p>
 						Je reste là. Longtemps. Je commence à croire que cette structure est vide. Je m’approche donc des ruines, avec un regard curieux mêlé d’une joie de la découverte fraîchement obtenue. Ces monuments sont sans âge. Ici le sable ne bouge pas. La brise n’attaque pas ma peau. Ci et là, des objets sont placés, comme abandonnés au milieu de leur utilisation.

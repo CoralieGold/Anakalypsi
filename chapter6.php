@@ -29,7 +29,7 @@
 				</div>
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						En suivant la lumière, je trouve un point de vert dans cette mer de bleu. Je m’en approche. Je ne peux contenir ma surprise lorsque je vois cet objet de plus près. Une nouvelle structure, mais celle-ci flotte. Je ne comprend pas. Je monte à bord.
+						En suivant <span class="secret-password">la</span> lumière, je trouve un point de vert dans cette mer de bleu. Je m’en approche. Je ne peux contenir ma surprise lorsque je vois cet objet de plus près. Une nouvelle structure, mais celle-ci flotte. Je ne comprend pas. Je monte à bord.
 					</p>
 					<p>
 						Toujours aucune ombre. Mais ce paysage change de ce que j’ai vu jusque là. Je m’allonge sur le pont. Me repose. Plusieurs nuits passent. Je vois la végétation grandir petit à petit.

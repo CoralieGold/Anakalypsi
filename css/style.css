@@ -211,6 +211,7 @@ p {
 
 .secret-password {
   color: #071C36;
+  font-weight: bolder;
 }
 
 @media screen and (max-width: 1024px) {

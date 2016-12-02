@@ -46,7 +46,7 @@
 			<div class="row valign-wrapper">
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						Les deux énormes rangées de sièges m’observent. Certains me regardent de haut, d’autres m’admirent. Je lève les yeux et aperçoit des créatures géantes, figées dans leurs actions. Elles sont silencieuses, colorées, plates. Elle me rappellent en un sens ces palmiers que j’avais vus lors de ma première escale, ne voulant pas prendre du volume, attachés à leur mur et leur immobilité.
+						Les deux énormes rangées de sièges m’observent. Certains me regardent de haut, d’autres m’admirent. Je lève les yeux <span class="secret-password">et</span> aperçoit des créatures géantes, figées dans leurs actions. Elles sont silencieuses, colorées, plates. Elle me rappellent en un sens ces palmiers que j’avais vus lors de ma première escale, ne voulant pas prendre du volume, attachés à leur mur et leur immobilité.
 					</p>
 					<p>
 						Ces créatures m’amusent. Les sièges me paraissent maintenant moins durs. Je trottine entre les rangs. Danse. M’assied. Saute. Les sièges acceptent ma présence à leur manière, certains restent immobiles, d’autres me saluent en grinçant.

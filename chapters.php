@@ -3,11 +3,22 @@
 			include_once("secret_access.php");
 ?>
 
-<?php if(isset($_POST['password'])) {
-	if($_POST['password'] == $password_secret_chapter) {
-		header('Location: chapter_secret.php');	
-	}	
-} ?>
+<?php 
+	if(!isset($_COOKIE['Anakalypsi']))
+	{
+		if(isset($_POST['password'])) {
+			if($_POST['password'] == $password_secret_chapter) {
+
+				setcookie("Anakalypsi", "Anakalypsi", time()+60);
+				header('Location: chapter11.php');	
+				exit();
+			}	
+		}
+
+	}
+?>
+
+
 
 <div class="main bg-img">
 	<div class="gold-border center">
@@ -50,7 +61,7 @@
 					</div>
 					<div class="chapters_title">Tchernobyl</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter3.php" class="chapters_point"><img src="images/chap3_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter3.php" class="chapters_point"><img src="images/chap3/chap3_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -60,7 +71,7 @@
 					</div>
 					<div class="chapters_title">Green Village</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter4.php" class="chapters_point"><img src="images/chap4_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter4.php" class="chapters_point"><img src="images/chap4/chap4_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -70,7 +81,7 @@
 					</div>
 					<div class="chapters_title">Ankor</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter5.php" class="chapters_point"><img src="images/chap5_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter5.php" class="chapters_point"><img src="images/chap5/chap5_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -80,7 +91,7 @@
 					</div>
 					<div class="chapters_title">Floating Forest</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter6.php" class="chapters_point"><img src="images/chap6_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter6.php" class="chapters_point"><img src="images/chap6/chap6_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -90,7 +101,7 @@
 					</div>
 					<div class="chapters_title">Hôtel Del Salto</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter7.php" class="chapters_point"><img src="images/chap7_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter7.php" class="chapters_point"><img src="images/chap7/chap7_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -100,7 +111,7 @@
 					</div>
 					<div class="chapters_title">Orpheum Theater</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter8.php" class="chapters_point"><img src="images/chap8_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter8.php" class="chapters_point"><img src="images/chap8/chap8_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -110,7 +121,7 @@
 					</div>
 					<div class="chapters_title">Casino</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter9.php" class="chapters_point"><img src="images/chap9_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter9.php" class="chapters_point"><img src="images/chap9/chap9_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
@@ -120,14 +131,16 @@
 					</div>
 					<div class="chapters_title">Orient Express</div>
 				</div>
-				<div class="hover_point_space"><a href="chapter10.php" class="chapters_point"><img src="images/chap10_summary.jpg"></a></div>
+				<div class="hover_point_space"><a href="chapter10.php" class="chapters_point"><img src="images/chap10/chap10_small.jpg"></a></div>
 			</div>
 
 			<div class="chapters one eleventh one-up-ipad">
 				<div class="chapters_content"></div>
-				<div class="hover_point_space"><a href="#" class="chapters_secret"></a></div>
+				<div class="hover_point_space"><a <?php if(!isset($_COOKIE['Anakalypsi'])) echo 'href="#"'; else echo 'href="chapter11.php"' ?>href="#" class="chapters_secret" <?php if(!isset($_COOKIE['Anakalypsi'])) echo 'onclick="$(this).popup();"' ?>></a></div>
 			</div>
 		</div>
+
+		<?php if(!isset($_COOKIE['Anakalypsi'])): ?>
 
 		<div class="box center">
 		  <h2>Accès au chapitre</h2>
@@ -144,6 +157,9 @@
 
 		<div id="overlay"></div>
 
+		<?php endif; ?>
+
+
 	</div>
 </div>
 
@@ -158,8 +174,7 @@
 		}
 
 		$('.chapters_secret').on('click', function() {
-			$(".box").css("display", "block");
-			$("#overlay").css("display", "block");
+				
 		});
 
 		$(document).mouseup(function(e) {
@@ -200,6 +215,11 @@
 				});
 		  }
 		}
+
+		$.fn.popup = function() {
+      $(".box").css("display", "block");
+			$("#overlay").css("display", "block");
+    };
 
 	});
 

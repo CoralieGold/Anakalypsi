@@ -29,7 +29,7 @@
 				</div>
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						De temps en temps je croise de la vie. Mais préfère toujours m’en éloigner. Finalement, j’arrive à un nouveau désert. Celui-ci m’emplit de tristesse. Je ne comprend pas. Je marche dans ce désert de terre, que je ne peux m’empêcher de penser être un désert de mort. Je profite du paysage. Celui-ci est magnifique. Mais quelque chose ne correspond pas à ce que je vois. Ce désert n’en est pas un. C’est une ancienne ville. Je le reconnais maintenant. Mais quelque chose a éloigné la vie d’ici.
+						De temps en temps <span class="secret-password">je</span> croise de la vie. Mais préfère toujours m’en éloigner. Finalement, j’arrive à un nouveau désert. Celui-ci m’emplit de tristesse. Je ne comprend pas. Je marche dans ce désert de terre, que je ne peux m’empêcher de penser être un désert de mort. Je profite du paysage. Celui-ci est magnifique. Mais quelque chose ne correspond pas à ce que je vois. Ce désert n’en est pas un. C’est une ancienne ville. Je le reconnais maintenant. Mais quelque chose a éloigné la vie d’ici.
 					</p>
 				</div>
 			</div>
@@ -78,7 +78,7 @@
 						Une structure en forme de roue, composé de petites cabines. Je devine que cette roue tournait et permettait de se rapprocher de la lumière. A côté, de petits engins motorisés sont couverts de végétation. Je peux sentir ici un sentiment que j’ai déjà vécu. Un sentiment chaud et agréable. Les ombres qui se trouvaient aussi le ressentaient aussi.
 					</p>
 					<p>
-						Je m’amuse à regarder et à nouveau imaginer. Imaginer… Mais cela ne me contente plus.
+						Je <span class="secret-password">m’</span>amuse à regarder et à nouveau imaginer. Imaginer… Mais cela ne me contente plus.
 						Je décide donc de continuer mon voyage. Et je marche. Je marche encore.
 					</p>
 					<p>

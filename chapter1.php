@@ -28,7 +28,7 @@
 				</div>
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						Né dans la lumière, je vois des ombres passer. Caché sous des pierres, un ciel trop bas. Personne ne me voit, personne ne me comprend. Mais chaque jour, je vois la porte s’ouvrir. Les rayons passer par l’ouverture. Je suis là depuis des années. On ne me reconnaît pas, ne m’apprécie pas. Les ombres me poussent, les ombres s’agitent.
+						Né dans la lumière, je vois des ombres passer. Caché sous des pierres, un ciel trop bas. Personne ne me voit, personne ne me comprend. Mais chaque jour, je vois la porte s’ouvrir. Les rayons passer par <span class="secret-password">l’</span>ouverture. Je suis là depuis des années. On ne me reconnaît pas, ne m’apprécie pas. Les ombres me poussent, les ombres s’agitent.
 					</p>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 			<div class="row valign-wrapper">
 				<div class="one half one-up-ipad">
 					<p class="valign">
-						Je m’y déplace difficilement, comme entravé par l’air que j’y respire. Toujours plus simplement que le jour, mais jamais assez simplement. Je ne me suis jamais senti mieux, pourtant je sais que je ne peux rester comme cela. Ma motivation tient de cette pierre. Cette pierre haute et fine, géométrique, gravée. Je m’y comparais. Seul, stoïque. Je lui parlais, l’écoutait. Et ce jour je la vis s’illuminer. Les rayons habituellement bleutés cette fois étaient blancs et la recouvraient dans son intégralité. Elle me répondait. Il fallait que j’aille dans la lumière, que je quitte ces ombres.
+						Je m’y déplace difficilement, comme entravé par l’air que j’y respire. Toujours plus simplement que le jour, mais jamais assez simplement. Je ne me suis jamais senti mieux, pourtant je sais que je ne peux rester comme cela. Ma motivation tient de cette pierre. Cette pierre haute et fine, géométrique, gravée. Je m’y comparais. Seul, stoïque. Je lui parlais, l’écoutait. Et ce jour je la vis s’illuminer. Les rayons habituellement bleutés cette fois étaient blancs et la recouvraient dans son intégralité. Elle me répondait. Il fallait que j’aille dans la lumière, que je <span class="secret-password">quitte</span> ces ombres.
 					</p>
 					<p>
 						C’est pourquoi je me répète. Je ne peux plus rester ici. J’attends que le passage s’ouvre à nouveau, et prends mon premier pas.

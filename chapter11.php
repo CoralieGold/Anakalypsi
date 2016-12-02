@@ -1,6 +1,16 @@
 <?php $title = "Le chapitre 11" ?>
 <?php include_once("header.php") ?>
 
+<?php 
+	if(!isset($_COOKIE['Anakalypsi']))
+	{
+		header('Location: chapters.php');	
+		exit();
+	}
+
+?>
+
+
 <div class="main chapter eleven">
 	<div class="gold-border center">
 
