@@ -3,9 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
-}
-
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
 /***********************
 **** Initialisation ****
@@ -16,82 +14,82 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+  display: block; }
 
 body {
-  line-height: 1;
-}
+  line-height: 1; }
 
 ol, ul {
-  list-style: none;
-}
+  list-style: none; }
 
 blockquote, q {
-  quotes: none;
-}
+  quotes: none; }
 
 blockquote:before, blockquote:after, q:before, q:after {
   content: '';
-  content: none;
-}
+  content: none; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
 
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
-}
-
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
 /* Menu principal */
 .mainNav {
   list-style-type: none;
-  padding: 20px 50px 50px;
-}
+  padding: 50px 70px; }
+  .mainNav.desktop .logoNav {
+    width: 180px;
+    transition: 0.3s; }
+    .mainNav.desktop .logoNav:hover {
+      opacity: 0.7; }
+  .mainNav.desktop li {
+    float: right; }
+    .mainNav.desktop li a {
+      display: inline-block;
+      text-align: center;
+      padding: 15px 30px;
+      transition: 0.3s;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 600; }
+      .mainNav.desktop li a:hover {
+        color: #bd924e; }
+    .mainNav.desktop li.active a {
+      color: #bd924e; }
+  .mainNav.mobile {
+    display: none; }
+    .mainNav.mobile .overlay {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: red;
+      overflow: hidden;
+      opacity: 1; }
+    .mainNav.mobile .content {
+      position: relative;
+      height: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 50px;
+      text-align: center; }
 
-.mainNav .logoNav {
-  width: 180px;
-  transition: 0.3s;
-}
-
-.mainNav .logoNav:hover {
-  opacity: 0.7;
-}
-
-.mainNav li {
-  float: right;
-}
-
-.mainNav li a {
-  display: inline-block;
-  text-align: center;
-  padding: 15px 30px;
-  transition: 0.3s;
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.mainNav li a:hover {
-  color: #bd924e;
-}
-
-.mainNav li.active a {
-  color: #bd924e;
-}
-
+@media screen and (max-width: 1024px) {
+  .mainNav.desktop {
+    display: none; }
+  .mainNav.mobile {
+    display: block; } }
 /***********************
 ******** Général *******
 ***********************/
@@ -109,44 +107,36 @@ body {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
+  transition: all 0.3s ease-in-out; }
 
 .main {
   background: #071C36;
   color: #ffffff;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
 .bg-img {
-  background: url("../images/index.png") #071C36;
-}
+  background: url("../images/index.png") #071C36; }
 
 .gold-border {
   border: 2px #bd924e solid;
   width: calc(100% - 40px);
-  height: calc(100% - 40px);
-}
+  height: calc(100% - 40px); }
 
 /* Style des éléments en général */
 a {
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
-  border: none;
-}
-
-a:hover {
-  color: #ffffff;
-}
+  border: none; }
+  a:hover {
+    color: #ffffff; }
 
 h1 {
   font-family: "The Heart", cursive;
   font-size: 8em;
   margin: 20px 20px 40px;
-  text-align: left;
-}
+  text-align: left; }
 
 h2 {
   color: #bd924e;
@@ -154,47 +144,39 @@ h2 {
   text-align: left;
   padding: 30px 0;
   font-size: 16px;
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 p {
   text-align: left;
   color: #000;
   line-height: 30px;
   font-size: 16px;
-}
+  text-align: justify; }
 
 .letter-spacing {
-  letter-spacing: 4px;
-}
+  letter-spacing: 4px; }
 
 .white {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .gold {
-  color: #bd924e;
-}
+  color: #bd924e; }
 
 .bold {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .semibold {
-  font-weight: 600;
-}
+  font-weight: 600; }
 
 .uppercase {
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .center {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  text-align: center;
-}
+  text-align: center; }
 
 .valign-wrapper {
   display: -webkit-flex;
@@ -202,24 +184,18 @@ p {
   display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
-}
-
-.valign-wrapper .valign {
-  display: block;
-}
+  align-items: center; }
+  .valign-wrapper .valign {
+    display: block; }
 
 .secret-password {
   color: #071C36;
-  font-weight: bolder;
-}
+  font-weight: bolder; }
 
 @media screen and (max-width: 1024px) {
   .bg-img {
     background-color: #071C36;
-    background-image: none;
-  }
+    background-image: none; }
+
   .gold-border {
-    border: none;
-  }
-}
+    border: none; } }

@@ -47,7 +47,6 @@
   }
 
   .text{
-
     margin: 0px 55px;
 
     img{
@@ -62,13 +61,11 @@
   .en-bref{
     background: url("../images/bg_map.png") center center $blue;
     padding: 50px 0;
-    margin: 20px -20px 0;
+    margin-top: 50px;
   }
 
   .map-chapter{
-    display: block;
     background: $blue;
-    margin: 0 -20px;
     border-top: 2px $gold solid;
     border-bottom: 2px $gold solid;
 
@@ -79,16 +76,20 @@
 
   .next-chapter{
     background: url("../images/bg_map.png") center bottom $blue;
-    padding: 80px 0;
-    margin: 0 -20px;
+    // padding: 80px 0;
+    height: 250px;
 
     .gold{
       margin-left: 10px;
     }
 
+    a{
+      display: inline-block;
+    }
+
     .lineLeft{
       height: 2px;
-      width: 80px;
+      width: 100px;
       background-color: #bd924e;
       float: left;
     }
@@ -109,11 +110,11 @@
 
     .lineRight{
       height: 2px;
-      width: 80px;
+      width: 100px;
       background-color: #bd924e;
-      position: absolute;
       right: 0;
-    }
+      position: relative;
+     }
 
     .dotRight{
       color: #bd924e;
@@ -121,13 +122,13 @@
       width: 80px;
       height: 80px;
       border-radius: 40px;
-      position: absolute;
-      right: 80px;
       border: 1px solid $gold;
+      right: 100px;
+      position: relative;
     }
 
     .linkRight{
-      position: absolute;
+      position: relative;
       right: 200px;
       text-align: right;
     }

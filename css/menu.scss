@@ -3,37 +3,77 @@
 /* Menu principal */
 .mainNav {
   list-style-type: none;
-  padding: 20px 50px 50px;
+  padding: 50px 70px;
 
-  .logoNav {
-    width: 180px;
-    transition: 0.3s;
+  &.desktop{
 
-    &:hover{
-      opacity: 0.7;
-    }
-  }
-
-  li {
-
-    float: right;
-
-    a {
-      display: inline-block;
-      text-align: center;
-      padding: 15px 30px;
+    .logoNav {
+      width: 180px;
       transition: 0.3s;
-      font-size: 16px;
-      text-transform: uppercase;
-      font-weight: 600;
 
-      &:hover {
-        color: $gold;
+      &:hover{
+        opacity: 0.7;
       }
     }
 
-    &.active a {
-      color: $gold;
+    li {
+
+      float: right;
+
+      a {
+        display: inline-block;
+        text-align: center;
+        padding: 15px 30px;
+        transition: 0.3s;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+
+        &:hover {
+          color: $gold;
+        }
+      }
+
+      &.active a {
+        color: $gold;
+      }
+    }
+  }
+
+  &.mobile{
+    display: none;
+
+    .overlay {
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background-color: red;
+      overflow: hidden;
+      opacity: 1;
+    }
+
+    .content{
+      position: relative;
+      height: 70%;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 50px;
+      text-align: center;
+    }
+
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mainNav {
+    &.desktop{
+      display: none;
+    }
+
+    &.mobile{
+      display: block;
     }
   }
 }

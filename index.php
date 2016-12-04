@@ -2,7 +2,7 @@
 <?php include_once("header.php") ?>
 
 <div class="main bg-img" id="home">
-	<div class="gold-border center">
+	<div class="gold-border center"></div>
 
 		<?php include_once("menu.php") ?>
 
@@ -13,8 +13,6 @@
 		<div class="cta">
 			<a href="chapters.php" class="line-through letter-spacing"><span class="glineLeft"></span>Commencer le voyage<span class="glineRight"></span></a>
 		</div>
-
-	</div>
 </div>
 
 <?php include_once("footer.php") ?>
