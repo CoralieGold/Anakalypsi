@@ -18,41 +18,56 @@
     width: 750px;
   }
 
-  .gLineRight{
+  .glineRight, .glineLeft {
     content: '';
     border-bottom: 2px solid $gold;
     width: 20px;
     position: absolute;
-    right: -25px;
     top: 50%;
+
+    &::before {
+      /*-webkit-transition: opacity 0.3s ease-in-out;
+      -moz-transition: opacity 0.3s ease-in-out;
+      -o-transition: opacity 0.3s ease-in-out;
+      -ms-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out;*/
+    }
   }
-  .gLineLeft{
-    content: '';
-    border-bottom: 2px solid $gold;
-    width: 20px;
-    position: absolute;
+
+  .glineRight {
+    right: -25px;
+  }
+
+  .glineLeft {
     left: -25px;
-    top: 50%;
   }
 }
-
 
 .line-through {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
 
-  &:hover{
+  &:hover {
+    /*span.glineLeft, span.glineRight {
+      width: 100%;
+    }*/
+
     &::before {
       content: '';
       border-bottom: 2px solid $gold;
       width: 110%;
       position: absolute;
       right: -20px;
-      top: 50%;
+      top: 50%; 
     }
   }
 }
+
+/*.line-through:hover .glineLeft, .line-through:hover .glineRight {
+  width: 200px; 
+}*/
+
 
 @media screen and (max-width: 1024px) {
   #home{

@@ -26,7 +26,7 @@
 		<div class="text">
 			<div class="row valign-wrapper" style="margin-top:160px;">
 				<div class="one half one-up-ipad">
-					<img src="images/chap10/chap10_img1.jpg" alt="" />
+					<img src="images/chap10/chap10_img1.jpg" alt="" class="chapterImage" />
 				</div>
 				<div class="one half one-up-ipad">
 					<p class="valign">
@@ -51,7 +51,7 @@
 					</p>
 				</div>
 				<div class="one half one-up-ipad">
-					<img src="images/chap10/chap10_img2.jpg" alt="" />
+					<img src="images/chap10/chap10_img2.jpg" alt="" class="chapterImage" />
 				</div>
 			</div>
 			<div class="row">

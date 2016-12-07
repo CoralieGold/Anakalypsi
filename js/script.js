@@ -25,7 +25,16 @@ $(document).ready(function(){
 			});
 		}else {
 			$(".open").css("display", "none");
+				$(window).scroll(function(){
+					chaptersImages();	
+				});
 		}
+	}
+
+	function chaptersImages(){
+		var haut = (document.body.clientHeight);
+		var scrolled = $(window).scrollTop();
+		$('.chapterImage').css('margin-top',(0-(scrolled*.1))+'px');
 	}
 	
 });

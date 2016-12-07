@@ -25,7 +25,7 @@
 		<div class="text">
 			<div class="row valign-wrapper">
 				<div class="one half">
-					<img src="images/chap1/chap1_img1.jpg" alt="" />
+					<img src="images/chap1/chap1_img1.jpg" alt="" class="chapterImage" />
 				</div>
 				<div class="one half">
 					<p class="valign">
@@ -53,7 +53,7 @@
 					</p>
 				</div>
 				<div class="one half">
-					<img src="images/chap1/chap1_img2.jpg" alt="" />
+					<img src="images/chap1/chap1_img2.jpg" alt="" class="chapterImage" />
 				</div>
 			</div>
 			<div class="row">
