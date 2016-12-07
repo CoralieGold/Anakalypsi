@@ -34,7 +34,7 @@ $(document).ready(function(){
 	function chaptersImages(){
 		var haut = (document.body.clientHeight);
 		var scrolled = $(window).scrollTop();
-		$('.chapterImage').css('margin-top',(0-(scrolled*.1))+'px');
+		$('.chapterImage').css('margin-top',(0-(scrolled*0.05))+'px');
 	}
 	
 });
