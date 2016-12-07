@@ -158,3 +158,16 @@ p{
 	}
 
 }
+
+@media screen and (max-width: 544px) {
+
+  h1{
+		font-size: 3.7rem;
+		text-align: center;
+	}
+
+	p, h2{
+		font-size: 0.95rem;
+	}
+
+}

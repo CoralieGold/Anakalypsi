@@ -7,17 +7,17 @@
 	<?php include_once("menu.php") ?>
 
 	<div class="row">
-		<div class="eleven twelfths skip-one">
+		<div class="nine twelfths mobile centered">
 			<h1>Chapitre <span class="gold">01</span></h1>
 		</div>
 	</div>
 	<div class="row">
-		<div class="eight twelfths skip-two">
+		<div class="seven twelfths mobile centered">
 			<h2 class="letter-spacing">Eglise Saint Sulpice</h2>
 		</div>
 	</div>
 	<div class="row">
-		<div class="eight twelfths skip-two">
+		<div class="seven twelfths mobile centered">
 			<p class="white">Un voyage est sur le point de commencer. Laissez-vous tenter par l’évasion. Oubliez les soucis de votre vie, le bruit, le monde.<br> Profitez.<br> Respirez.<br>Il est maintenant temps de partir.</p>
 		</div>
 	</div>
@@ -70,12 +70,12 @@
 
 	<div class="en-bref">
 		<div class="row">
-			<div class="eight twelfths skip-two">
+			<div class="eight twelfths mobile centered">
 				<h2 class="letter-spacing white bold">En Bref</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="eight twelfths skip-two">
+			<div class="eight twelfths mobile centered">
 				<p class="white">L’Eglise Saint Sulpice se trouve au centre de Paris. Ce lieu culte faisant partie du Da Vinci Tour, abritant dans sa crypte une ancienne église toujours conservée est la première étape du voyage Anakálypsi.<br>
 					Le lieu est situé 2 rue Garancière, dans le 6eme arrondissement de Paris en France.
 				</p>
