@@ -74,7 +74,7 @@ $(document).ready(function(){
 
 
 
-  var rayon = 2;
+  var rayon = 3;
 
   var map = new Datamap({
     element: document.getElementById('map'),
@@ -183,16 +183,16 @@ $(document).ready(function(){
   // Style bubbles
   $('.datamaps-bubble').css('fill', 'rgb(255,255,255)');
   $('.datamaps-bubble').css('fill-opacity', '1');
-  $('.datamaps-bubble').css('stroke-opacity', '1');
-  $('.datamaps-bubble').css('stroke-width', '2');
+  $('.datamaps-bubble').css('stroke-opacity', '0.5');
+  $('.datamaps-bubble').css('stroke-width', '6');
   $('.datamaps-bubble').css('stroke', 'rgb(255,255,255)');
 
   // Style bubbles hover
   $('.datamaps-bubble').hover(function(){
     $('.datamaps-bubble').css('fill', 'rgb(255,255,255)');
     $('.datamaps-bubble').css('fill-opacity', '1');
-    $('.datamaps-bubble').css('stroke-opacity', '1');
-    $('.datamaps-bubble').css('stroke-width', '2');
+    $('.datamaps-bubble').css('stroke-opacity', '0.5');
+    $('.datamaps-bubble').css('stroke-width', '6');
     $('.datamaps-bubble').css('stroke', 'rgb(255,255,255)');
     $('.datamaps-bubble').css('cursor', 'pointer');
   });
