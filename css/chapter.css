@@ -25,16 +25,18 @@
   background: url("../images/chap10/chap10_bg.png") #071C36; }
 .chapter.eleven {
   background: url("../images/chap11/chap11_bg.png") #071C36; }
+.chapter .intro {
+  height: 100%; }
 .chapter .text {
-  margin: 0px 55px; }
+  padding: 0px 55px 50px;
+  background: #ffffff; }
   .chapter .text img {
     padding: 30px; }
   .chapter .text p {
     padding: 20px; }
 .chapter .en-bref {
   background: url("../images/bg_map.png") center center #071C36;
-  padding: 50px 0;
-  margin-top: 50px; }
+  padding: 50px 0; }
 .chapter .map-chapter {
   background: #071C36;
   border-top: 2px #bd924e solid;

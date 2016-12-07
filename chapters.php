@@ -1,32 +1,33 @@
 <?php $title = "Les chapitres" ?>
 <?php include_once("header.php");
-			include_once("secret_access.php");
+include_once("secret_access.php");
 ?>
 
-<?php 
-	if(!isset($_COOKIE['Anakalypsi']))
-	{
-		if(isset($_POST['password'])) {
-			if($_POST['password'] == $password_secret_chapter) {
+<?php
+if(!isset($_COOKIE['Anakalypsi']))
+{
+	if(isset($_POST['password'])) {
+		if($_POST['password'] == $password_secret_chapter) {
 
-				setcookie("Anakalypsi", "Anakalypsi", time()+60);
-				header('Location: chapter11.php');	
-				exit();
-			}	
+			setcookie("Anakalypsi", "Anakalypsi", time()+60);
+			header('Location: chapter11.php');
+			exit();
 		}
-
 	}
+
+}
 ?>
 
 
 
 <div class="main bg-img">
-	<div class="gold-border center">
+	<div class="gold-border center"></div>
 
 	<?php include_once("menu.php") ?>
+	<div class="content">
 
 		<div class="row">
-			<div class="eleven eleventh one-up-ipads skip-one">
+			<div class="eleven twelfths mobile skip-one">
 				<h1>Les chapitres</h1>
 			</div>
 		</div>
@@ -142,85 +143,83 @@
 
 		<?php if(!isset($_COOKIE['Anakalypsi'])): ?>
 
-		<div class="box center">
-		  <h2>Accès au chapitre</h2>
-		  <div class="row gap-bottom">
-		    <div class="one">
-		    	<form method="POST" action="chapters.php">
-		    		<label for="password">Mot de passe</label>
-		      	<input type="password" name="password" id="password">
-		      	<input type="submit" value="Accéder">
-		    	</form>
-		    </div>
-		  </div>
-		</div>
+			<div class="box center">
+				<h2>Accès au chapitre</h2>
+				<div class="row gap-bottom">
+					<div class="one">
+						<form method="POST" action="chapters.php">
+							<label for="password">Mot de passe</label>
+							<input type="password" name="password" id="password">
+							<input type="submit" value="Accéder">
+						</form>
+					</div>
+				</div>
+			</div>
 
-		<div id="overlay"></div>
+			<div id="overlay"></div>
 
 		<?php endif; ?>
-
-
 	</div>
 </div>
 
 <?php include_once("footer.php") ?>
 
 <script type="text/javascript">
-	$(document).ready(function() {
-		if (matchMedia) {
-		  var mq = window.matchMedia("(max-width: 1024px)");
-		  mq.addListener(WidthChange);
-		  WidthChange(mq);
-		}
+$(document).ready(function() {
+	if (matchMedia) {
+		var mq = window.matchMedia("(max-width: 1024px)");
+		mq.addListener(WidthChange);
+		WidthChange(mq);
+	}
 
-		$('.chapters_secret').on('click', function() {
-				
-		});
-
-		$(document).mouseup(function(e) {
-		  if (!$(".box").is(e.target)
-		    && $(".box").has(e.target).length === 0)
-		  {
-		    $(".box").css("display", "none");
-			  $("#overlay").css("display", "none");
-		  }
-		});
-
-		// media query change
-		function WidthChange(mq) {
-		  if (mq.matches) {
-		   	$("div.chapters_content").css("opacity", "1");
-				$(this).siblings("div.chapters_content").css("margin", "0px");
-				$(this).siblings("div.chapters_point").css("margin-top", "0px");
-
-				$("div.chapters_content").on('click', function() {
-					window.location.href = $(this).siblings("div.hover_point_space").children(".chapters_point").attr("href");
-				});
-
-		  }
-		  else {
-		   	$("div.chapters_content").css("opacity", "0");
-				$("div.chapters_content").css("margin", "0px");
-				$("div.chapters_point").css("margin-top", "0px");
-
-
-				$(".hover_point_space").mouseover(function() {
-					$(this).siblings("div.chapters_content").css("opacity", "1");
-					$(this).siblings("div.chapters_content").css("margin", "0");
-				});
-
-				$(".hover_point_space").mouseout(function() {
-					$(this).siblings("div.chapters_content").css("opacity", "0");
-					$(this).siblings("div.chapters_content").css("margin", "0");
-				});
-		  }
-		}
-
-		$.fn.popup = function() {
-      $(".box").css("display", "block");
-			$("#overlay").css("display", "block");
-    };
+	$('.chapters_secret').on('click', function() {
 
 	});
+
+	$(document).mouseup(function(e) {
+		if (!$(".box").is(e.target)
+		&& $(".box").has(e.target).length === 0)
+		{
+			$(".box").css("display", "none");
+			$("#overlay").css("display", "none");
+		}
+	});
+
+	// media query change
+	function WidthChange(mq) {
+		if (mq.matches) {
+			$("div.chapters_content").css("opacity", "1");
+			$(this).siblings("div.chapters_content").css("margin", "0px");
+			$(this).siblings("div.chapters_point").css("margin-top", "0px");
+
+			$("div.chapters_content").on('click', function() {
+				window.location.href = $(this).siblings("div.hover_point_space").children(".chapters_point").attr("href");
+			});
+
+		}
+		else {
+			$("div.chapters_content").css("opacity", "0");
+			$("div.chapters_content").css("margin", "0px");
+			$("div.chapters_point").css("margin-top", "0px");
+
+
+			$(".hover_point_space").mouseover(function() {
+				$(this).siblings("div.chapters_content").css("opacity", "1");
+				$(this).siblings("div.chapters_content").css("margin", "0");
+			});
+
+			$(".hover_point_space").mouseout(function() {
+				$(this).siblings("div.chapters_content").css("opacity", "0");
+				$(this).siblings("div.chapters_content").css("margin", "0");
+			});
+		}
+	}
+
+	$.fn.popup = function() {
+		$(".box").css("display", "block");
+		$("#overlay").css("display", "block");
+	};
+
+});
 
 </script>

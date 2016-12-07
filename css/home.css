@@ -8,7 +8,8 @@
   position: absolute;
   bottom: 13%;
   left: 50%;
-  transform: translateX(-50%); }
+  transform: translateX(-50%);
+  width: 100%; }
 #home h1 {
   font-size: 10em; }
 #home .logoIndex {
@@ -39,3 +40,23 @@
     position: absolute;
     right: -20px;
     top: 50%; }
+
+@media screen and (max-width: 1024px) {
+  #home .gLineRight {
+    width: 20px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+  #home .gLineLeft {
+    width: 20px;
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
+
+  .line-through:hover::before {
+    border-bottom: 0;
+    width: 0; } }

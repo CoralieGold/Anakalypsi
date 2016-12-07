@@ -4,8 +4,25 @@
 .mainNav {
   list-style-type: none;
   padding: 50px 70px;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 600;
 
-  &.desktop{
+
+  a {
+    transition: 0.3s;
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $gold;
+    }
+    &.active a {
+      color: $gold;
+    }
+  }
+
+  &.Ndesktop{
 
     .logoNav {
       width: 180px;
@@ -17,63 +34,77 @@
     }
 
     li {
-
       float: right;
 
       a {
         display: inline-block;
-        text-align: center;
         padding: 15px 30px;
-        transition: 0.3s;
-        font-size: 16px;
-        text-transform: uppercase;
-        font-weight: 600;
-
-        &:hover {
-          color: $gold;
-        }
       }
 
-      &.active a {
-        color: $gold;
-      }
     }
   }
 
-  &.mobile{
+  &.Nmobile{
     display: none;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: $blue;
+    overflow: hidden;
+    opacity: 1;
+    padding: 0;
+    z-index: 1;
 
-    .overlay {
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      left: 0;
-      top: 0;
-      background-color: red;
-      overflow: hidden;
-      opacity: 1;
-    }
-
-    .content{
+    nav{
       position: relative;
-      height: 70%;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 50px;
-      text-align: center;
+
+      li{
+        padding: 25px 0;
+      }
+      .logoNav{
+        width: 340px;
+      }
     }
 
   }
 }
 
+.navButton{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+
+  &.open{
+    display: none;
+  }
+
+  &.close{
+    display: none;
+    z-index: 2;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .mainNav {
-    &.desktop{
+    a {
+      &:hover {
+        color: $white;
+      }
+    }
+
+    &.Ndesktop{
       display: none;
     }
 
-    &.mobile{
-      display: block;
+    .navButton{
+      &.open{
+        display: block;
+      }
     }
   }
 }

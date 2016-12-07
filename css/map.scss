@@ -8,9 +8,10 @@ body {
 	background-color: $blue;
 
 	#map {
-		width: calc(100% - 40px);
-		height: calc(100% - 40px);
-		position: absolute;
+		width: calc(100% - 45px);
+		height: calc(100% - 45px);
+		// position: absolute;
+		// z-index: 0;
 	}
 
 	h1 {

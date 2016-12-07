@@ -2,16 +2,14 @@
 <?php include_once("header.php") ?>
 
 <div class="main">
+	<div class="gold-border center"></div>
 
 	<div id="map" class="center"></div>
-	<div class="gold-border center"></div>
 
 	<?php include_once("menu.php") ?>
 
 	<div class="row">
-		<div class="eleven twelfths skip-one">
-			<h1>La carte</h1>
-		</div>
+		<h1 style="margin-left: 165px">La carte</h1>
 	</div>
 
 </div>

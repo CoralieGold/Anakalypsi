@@ -46,8 +46,13 @@
     background: url("../images/chap11/chap11_bg.png") $blue;
   }
 
+  .intro{
+    height: 100%;
+  }
+
   .text{
-    margin: 0px 55px;
+    padding: 0px 55px 50px;
+    background: $white;
 
     img{
       padding: 30px;
@@ -61,7 +66,6 @@
   .en-bref{
     background: url("../images/bg_map.png") center center $blue;
     padding: 50px 0;
-    margin-top: 50px;
   }
 
   .map-chapter{
