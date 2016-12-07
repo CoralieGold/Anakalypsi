@@ -1,24 +1,33 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
+}
+
 /*COLORS*/
 body {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .main {
-  background-color: #071C36; }
-  .main #map {
-    width: calc(100% - 45px);
-    height: calc(100% - 45px); }
-  .main h1 {
-    position: relative;
-    z-index: 4;
-    width: 400px; }
+  background-color: #071C36;
+}
+
+.main #map {
+  width: calc(100% - 45px);
+  height: calc(100% - 45px);
+}
+
+.main h1 {
+  position: relative;
+  z-index: 4;
+  width: 400px;
+}
 
 .datamaps-hoverover {
   /*top: 210px !important;
-  left: 400px!important;*/ }
+	left: 400px!important;*/
+}
 
 .hoverinfo {
   background-color: transparent !important;
@@ -27,4 +36,5 @@ body {
   color: #FFF !important;
   box-shadow: none !important;
   font-family: 'Open Sans', sans-serif !important;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
