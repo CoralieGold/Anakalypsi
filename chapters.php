@@ -27,7 +27,7 @@ if(!isset($_COOKIE['Anakalypsi']))
 	<div class="content">
 
 		<div class="row">
-			<div class="eleven twelfths mobile skip-one">
+			<div class="nine twelfths mobile centered">
 				<h1>Les chapitres</h1>
 			</div>
 		</div>

@@ -4,8 +4,11 @@ $(document).ready(function(){
 
 	if (matchMedia) {
 		var mq = window.matchMedia("(max-width: 1024px)");
+		var mq2 = window.matchMedia("(min-width: 1024px)");
 		mq.addListener(mobileNav);
 		mobileNav(mq);
+		mq2.addListener(mobileText);
+		mobileText(mq2);
 	}
 
 	function mobileNav(mq) {
@@ -26,8 +29,14 @@ $(document).ready(function(){
 		}else {
 			$(".open").css("display", "none");
 				$(window).scroll(function(){
-					chaptersImages();	
+					chaptersImages();
 				});
+		}
+	}
+
+	function mobileText(mq2){
+		if (mq2.matches) {
+			$(".vwdesk").addClass("valign-wrapper");
 		}
 	}
 
@@ -36,5 +45,5 @@ $(document).ready(function(){
 		var scrolled = $(window).scrollTop();
 		$('.chapterImage').css('margin-top',(0-(scrolled*0.05))+'px');
 	}
-	
+
 });
