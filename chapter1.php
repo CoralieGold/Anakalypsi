@@ -86,17 +86,17 @@
 		<img src="images/chap1/chap1_map.jpg" alt="" />
 	</div>
 	<div class="next-chapter valign-wrapper">
-		<div class="row">
-			<a href="index.php">
-				<div class="lineLef"></div>
-				<div class="dotLeft"></div>
-				<p class="linkLeft white uppercase letter-spacing semibold">Accueil</p>
+		<div class="valign" style="height: 80px;">
+			<a href="index.php" class="left valign-wrapper">
+				<div class="line valign"></div>
+				<div class="dot valign"></div>
+				<p class="link valign uppercase">Accueil</p>
 			</a>
 
-			<a href="chapter2.php">
-				<p class="linkRight white letter-spacing semibold"><span class="uppercase">Chapitre</span><span class="gold">02</span><br>Kolmanskop</p>
-				<img class="dotRight"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
-				<div class="lineRight"></div>
+			<a href="chapter2.php" class="right valign-wrapper">
+				<p class="link valign"><span class="uppercase">Chapitre</span><span class="gold">02</span><br>Kolmanskop</p>
+				<img class="dot valign"src="images/chap2/chap2_small.jpg" alt="Aller au chapitre 2"/>
+				<div class="line valign"></div>
 			</a>
 		</div>
 	</div>

@@ -48,42 +48,36 @@
   height: 250px; }
   .chapter .next-chapter .gold {
     margin-left: 10px; }
-  .chapter .next-chapter a {
-    display: inline-block; }
-  .chapter .next-chapter .lineLeft {
+  .chapter .next-chapter .line {
     height: 2px;
     width: 100px;
-    background-color: #bd924e;
-    float: left; }
-  .chapter .next-chapter .dotLeft {
+    background-color: #bd924e; }
+  .chapter .next-chapter .dot {
     color: #bd924e;
     background-color: #bd924e;
     width: 16px;
     height: 16px;
-    border-radius: 8px;
-    float: left; }
-  .chapter .next-chapter .linkLeft {
-    float: left;
-    margin-left: 20px; }
-  .chapter .next-chapter .lineRight {
-    height: 2px;
-    width: 100px;
-    background-color: #bd924e;
-    right: 0;
-    position: relative; }
-  .chapter .next-chapter .dotRight {
-    color: #bd924e;
-    background-color: #bd924e;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    border: 1px solid #bd924e;
-    right: 100px;
-    position: relative; }
-  .chapter .next-chapter .linkRight {
-    position: relative;
-    right: 200px;
-    text-align: right; }
+    border-radius: 8px; }
+  .chapter .next-chapter .link {
+    color: white;
+    letter-spacing: 4px;
+    font-weight: 600; }
+  .chapter .next-chapter .left {
+    position: absolute;
+    left: 0;
+    height: 80px; }
+    .chapter .next-chapter .left .link {
+      padding-left: 20px; }
+  .chapter .next-chapter .right {
+    position: absolute;
+    right: 0; }
+    .chapter .next-chapter .right .dot {
+      width: 80px;
+      height: 80px;
+      border-radius: 40px;
+      border: 1px solid #bd924e; }
+    .chapter .next-chapter .right .link {
+      padding-right: 20px; }
 
 @media screen and (max-width: 1024px) {
   .chapter.one, .chapter.two, .chapter.three, .chapter.four, .chapter.five, .chapter.six, .chapter.seven, .chapter.height, .chapter.nine, .chapter.ten, .chapter.eleven, .chapter .en-bref, .chapter .next-chapter {
@@ -92,3 +86,6 @@
     display: none; }
   .chapter .text {
     padding: 0px 0px 50px; } }
+@media screen and (max-width: 768px) {
+  .next-chapter .left {
+    display: none; } }
