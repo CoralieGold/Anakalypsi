@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i,800,800i&subset=greek,greek-ext,latin-ext");
 @font-face {
   font-family: 'The Heart';
-  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype");
-}
-
+  src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
 #home .cta {
   text-align: center;
@@ -11,65 +9,36 @@
   bottom: 13%;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-}
-
+  width: 100%; }
 #home h1 {
-  font-size: 10em;
-}
-
+  font-size: 10em; }
 #home .logoIndex {
-  width: 750px;
-}
-
+  width: 650px; }
 #home .glineRight, #home .glineLeft {
   content: '';
   border-bottom: 2px solid #bd924e;
   width: 20px;
   position: absolute;
   top: 50%;
-}
-
-#home .glineRight::before, #home .glineLeft::before {
-  /*-webkit-transition: opacity 0.3s ease-in-out;
-      -moz-transition: opacity 0.3s ease-in-out;
-      -o-transition: opacity 0.3s ease-in-out;
-      -ms-transition: opacity 0.3s ease-in-out;
-      transition: opacity 0.3s ease-in-out;*/
-}
-
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -o-transition: 1s ease;
+  -ms-transition: 1s ease;
+  transition: 1s ease; }
 #home .glineRight {
-  right: -25px;
-}
-
+  right: -25px; }
 #home .glineLeft {
-  left: -25px;
-}
+  left: -25px; }
 
 .line-through {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-}
+  font-size: 0.8rem; }
 
-.line-through:hover {
-  /*span.glineLeft, span.glineRight {
-      width: 100%;
-    }*/
-}
+.gLineHover {
+  width: 150px; }
 
-.line-through:hover::before {
-  content: '';
-  border-bottom: 2px solid #bd924e;
-  width: 110%;
-  position: absolute;
-  right: -20px;
-  top: 50%;
-}
-
-/*.line-through:hover .glineLeft, .line-through:hover .glineRight {
-  width: 200px; 
-}*/
 @media screen and (max-width: 1024px) {
   #home .gLineRight {
     width: 20px;
@@ -77,18 +46,30 @@
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
+    transform: rotate(90deg); }
   #home .gLineLeft {
     width: 20px;
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-  }
+    transform: rotate(90deg); }
+
   .line-through:hover::before {
     border-bottom: 0;
-    width: 0;
-  }
-}
+    width: 0; } }
+@media screen and (min-width: 1024px) {
+  #home .cta:hover .glineLeft {
+    width: 150px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease; }
+  #home .cta:hover .glineRight {
+    width: 150px;
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease; } }

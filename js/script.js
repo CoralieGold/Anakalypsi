@@ -28,15 +28,16 @@ $(document).ready(function(){
 			});
 		}else {
 			$(".open").css("display", "none");
-				$(window).scroll(function(){
-					chaptersImages();
-				});
+			$(window).scroll(function(){
+				chaptersImages();
+			});
 		}
 	}
 
 	function mobileText(mq2){
 		if (mq2.matches) {
 			$(".vwdesk").addClass("valign-wrapper");
+
 		}
 	}
 

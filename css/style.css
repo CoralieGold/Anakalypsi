@@ -52,14 +52,14 @@ body {
   font-weight: 600; }
   .mainNav a {
     transition: 0.3s;
-    font-size: 1rem;
+    font-size: 0.8rem;
     text-transform: uppercase; }
     .mainNav a:hover {
       color: #bd924e; }
     .mainNav a.active a {
       color: #bd924e; }
   .mainNav.Ndesktop .logoNav {
-    width: 180px;
+    width: 130px;
     transition: 0.3s; }
     .mainNav.Ndesktop .logoNav:hover {
       opacity: 0.7; }
@@ -170,7 +170,7 @@ p {
   text-align: left;
   color: #000;
   line-height: 30px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: justify; }
 
 .letter-spacing {

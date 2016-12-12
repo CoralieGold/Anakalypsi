@@ -15,7 +15,7 @@
   }
 
   .logoIndex{
-    width: 750px;
+    width: 650px;
   }
 
   .glineRight, .glineLeft {
@@ -24,15 +24,11 @@
     width: 20px;
     position: absolute;
     top: 50%;
-
-    &::before {
-      /*-webkit-transition: opacity 0.3s ease-in-out;
-      -moz-transition: opacity 0.3s ease-in-out;
-      -o-transition: opacity 0.3s ease-in-out;
-      -ms-transition: opacity 0.3s ease-in-out;
-      transition: opacity 0.3s ease-in-out;*/
-    }
-  }
+    -webkit-transition: 1s ease;
+    -moz-transition: 1s ease;
+    -o-transition: 1s ease;
+    -ms-transition: 1s ease;
+    transition: 1s ease;  }
 
   .glineRight {
     right: -25px;
@@ -47,26 +43,12 @@
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-
-  &:hover {
-    /*span.glineLeft, span.glineRight {
-      width: 100%;
-    }*/
-
-    &::before {
-      content: '';
-      border-bottom: 2px solid $gold;
-      width: 110%;
-      position: absolute;
-      right: -20px;
-      top: 50%; 
-    }
-  }
+  font-size: 0.8rem;
 }
 
-/*.line-through:hover .glineLeft, .line-through:hover .glineRight {
-  width: 200px; 
-}*/
+.gLineHover{
+  width: 150px;
+}
 
 
 @media screen and (max-width: 1024px) {
@@ -97,5 +79,26 @@
       }
     }
   }
-
+}
+@media screen and (min-width: 1024px){
+  #home{
+    & .cta{
+      &:hover .glineLeft{
+        width: 150px;
+        -webkit-transition: 1s ease;
+  		  -moz-transition: 1s ease;
+  		  -o-transition: 1s ease;
+  		  -ms-transition: 1s ease;
+        transition: 1s ease;
+      }
+      &:hover .glineRight{
+        width: 150px;
+        -webkit-transition: 1s ease;
+  		  -moz-transition: 1s ease;
+  		  -o-transition: 1s ease;
+  		  -ms-transition: 1s ease;
+        transition: 1s ease;
+      }
+    }
+  }
 }

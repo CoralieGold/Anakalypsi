@@ -4,27 +4,27 @@
   src: url("../fonts/The Heart of Everything Demo.ttf") format("truetype"); }
 /*COLORS*/
 .chapter.one {
-  background: url("../images/chap1/chap1_bg.png") #071C36; }
+  background: url("../images/chap1/chap1_bg.png") no-repeat center center #071C36; }
 .chapter.two {
-  background: url("../images/chap2/chap2_bg.png") #071C36; }
+  background: url("../images/chap2/chap2_bg.png") no-repeat center center #071C36; }
 .chapter.three {
-  background: url("../images/chap3/chap3_bg.png") #071C36; }
+  background: url("../images/chap3/chap3_bg.png") no-repeat center center #071C36; }
 .chapter.four {
-  background: url("../images/chap4/chap4_bg.png") #071C36; }
+  background: url("../images/chap4/chap4_bg.png") no-repeat center center #071C36; }
 .chapter.five {
-  background: url("../images/chap5/chap5_bg.png") #071C36; }
+  background: url("../images/chap5/chap5_bg.png") no-repeat center center #071C36; }
 .chapter.six {
-  background: url("../images/chap6/chap6_bg.png") #071C36; }
+  background: url("../images/chap6/chap6_bg.png") no-repeat center center #071C36; }
 .chapter.seven {
-  background: url("../images/chap7/chap7_bg.png") #071C36; }
+  background: url("../images/chap7/chap7_bg.png") no-repeat center center #071C36; }
 .chapter.height {
-  background: url("../images/chap8/chap8_bg.png") #071C36; }
+  background: url("../images/chap8/chap8_bg.png") no-repeat center center #071C36; }
 .chapter.nine {
-  background: url("../images/chap9/chap9_bg.png") #071C36; }
+  background: url("../images/chap9/chap9_bg.png") no-repeat center center #071C36; }
 .chapter.ten {
-  background: url("../images/chap10/chap10_bg.png") #071C36; }
+  background: url("../images/chap10/chap10_bg.png") no-repeat center center #071C36; }
 .chapter.eleven {
-  background: url("../images/chap11/chap11_bg.png") #071C36; }
+  background: url("../images/chap11/chap11_bg.png") no-repeat center center #071C36; }
 .chapter .intro {
   height: 100%; }
 .chapter .text {

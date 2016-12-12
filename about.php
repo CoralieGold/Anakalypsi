@@ -8,7 +8,7 @@
 	<div class="content about">
 		<div class="row">
 			<div class="nine twelfths mobile centered">
-				<h1>A propos</h1>
+				<h1>À&nbsp propos</h1>
 			</div>
 		</div>
 		<div class="row">
