@@ -143,6 +143,8 @@ if(!isset($_COOKIE['Anakalypsi']))
 
 		<?php if(!isset($_COOKIE['Anakalypsi'])): ?>
 
+			<div id="overlay"></div>
+
 			<div class="box center">
 				<h2>Accès au chapitre</h2>
 				<div class="row gap-bottom">
@@ -156,7 +158,6 @@ if(!isset($_COOKIE['Anakalypsi']))
 				</div>
 			</div>
 
-			<div id="overlay"></div>
 
 		<?php endif; ?>
 	</div>

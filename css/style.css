@@ -85,7 +85,8 @@ body {
       .mainNav.Nmobile nav li {
         padding: 25px 0; }
       .mainNav.Nmobile nav .logoNav {
-        width: 340px; }
+        width: 280px;
+        padding-bottom: 30px; }
 
 .navButton {
   position: absolute;
@@ -117,7 +118,6 @@ html, body {
 #overlay {
   display: none;
   position: fixed;
-  z-index: 100;
   top: 0;
   left: 0;
   bottom: 0;

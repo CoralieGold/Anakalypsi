@@ -10,8 +10,12 @@
     width: 100%;
   }
 
-  h1{
+  logo{
     font-size: 10em;
+  }
+
+  .LogoMobile{
+    display: none;
   }
 
   .logoIndex{
@@ -46,13 +50,15 @@
   font-size: 0.8rem;
 }
 
-.gLineHover{
-  width: 150px;
-}
-
 
 @media screen and (max-width: 1024px) {
   #home{
+
+    .LogoMobile{
+      display: block;
+      width: 60px;
+      margin: 0 auto 50px;
+    }
     .gLineRight{
       width: 20px;
       -moz-transform: rotate(90deg);
@@ -71,14 +77,6 @@
     }
   }
 
-  .line-through {
-    &:hover{
-      &::before {
-        border-bottom: 0;
-        width: 0;
-      }
-    }
-  }
 }
 @media screen and (min-width: 1024px){
   #home{

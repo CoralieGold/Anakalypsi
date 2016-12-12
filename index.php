@@ -6,9 +6,10 @@
 
 		<?php include_once("menu.php") ?>
 
-		<h1 class="center">
+		<div class="logo center">
+			<img class="logoMobile" src="images/logo_mobile.svg" alt="Logo mobile du site Anakalypsi"/>
 			<img class="logoIndex" src="images/logo_anakalypsi.svg" alt="Logo du site Anakalypsi" />
-		</h1>
+		</div>
 
 		<div class="cta">
 			<a href="chapters.php" class="line-through letter-spacing"><span class="glineLeft"></span>Commencer le voyage<span class="glineRight"></span></a>

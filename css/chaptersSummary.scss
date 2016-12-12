@@ -38,10 +38,10 @@ body {
 				display: block;
 
 				-webkit-transition: all 0.3s ease-in-out;
-			  -moz-transition: all 0.3s ease-in-out;
-			  -o-transition: all 0.3s ease-in-out;
-			  -ms-transition: all 0.3s ease-in-out;
-			  transition: all 0.3s ease-in-out;
+				-moz-transition: all 0.3s ease-in-out;
+				-o-transition: all 0.3s ease-in-out;
+				-ms-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out;
 			}
 
 			.chapters_point {
@@ -55,10 +55,10 @@ body {
 				cursor: pointer;
 
 				-webkit-transition: all 0.3s ease-in-out;
-			  -moz-transition: all 0.3s ease-in-out;
-			  -o-transition: all 0.3s ease-in-out;
-			  -ms-transition: all 0.3s ease-in-out;
-			  transition: all 0.3s ease-in-out;
+				-moz-transition: all 0.3s ease-in-out;
+				-o-transition: all 0.3s ease-in-out;
+				-ms-transition: all 0.3s ease-in-out;
+				transition: all 0.3s ease-in-out;
 
 				img {
 					opacity: 0;
@@ -66,10 +66,10 @@ body {
 					width: 16px;
 					border-radius: 8px;
 					-webkit-transition: all 0.3s ease-in-out;
-			  	-moz-transition: all 0.3s ease-in-out;
-			  	-o-transition: all 0.3s ease-in-out;
-			  	-ms-transition: all 0.3s ease-in-out;
-			  	transition: all 0.3s ease-in-out;
+					-moz-transition: all 0.3s ease-in-out;
+					-o-transition: all 0.3s ease-in-out;
+					-ms-transition: all 0.3s ease-in-out;
+					transition: all 0.3s ease-in-out;
 				}
 
 			}
@@ -85,18 +85,18 @@ body {
 
 				.chapters_point {
 					-webkit-transform: scale(4);
-			    -moz-transform: scale(4);
-			    -o-transform: scale(4);
-			    -ms-transform: scale(4);
-			    transform: scale(4);
+					-moz-transform: scale(4);
+					-o-transform: scale(4);
+					-ms-transform: scale(4);
+					transform: scale(4);
 
 					img {
 						opacity: 1;
 						-webkit-transform: scale(4);
-				    -moz-transform: scale(4);
-				    -o-transform: scale(4);
-				    -ms-transform: scale(4);
-				    transform: scale(4);
+						-moz-transform: scale(4);
+						-o-transform: scale(4);
+						-ms-transform: scale(4);
+						transform: scale(4);
 					}
 				}
 			}
@@ -106,17 +106,15 @@ body {
 			opacity: 0;
 			margin: -20px 0 20px 0;
 			-webkit-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
-		  -moz-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
-		  -o-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
-		  -ms-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
-		  transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+			-moz-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+			-o-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+			-ms-transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
+			transition: opacity 0.3s ease-in-out, margin-top 0.3s ease-in-out;
 			color: #FFF;
 			text-align: center;
 			height: 80px;
 			letter-spacing: 3px;
 			font-weight: normal;
-			width: 200px;
-			margin-left: -30px;
 
 			.chapters_number {
 				text-transform: uppercase;
@@ -131,8 +129,8 @@ body {
 
 			.chapters_title {
 				font-size: 0.8rem;
-		    margin-top: 12px;
-		    line-height: 18px;
+				margin-top: 12px;
+				line-height: 18px;
 			}
 		}
 	}
@@ -140,12 +138,27 @@ body {
 
 .box {
 	display: none;
-	z-index: 101;
+	z-index: 2;
+	width: 500px;
+	height: 250px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+
+	h2{
+		text-align: center;
+	}
+
+	label{
+		padding: 15px 0;
+	}
+
+	input[type=submit]{
+		margin: 20px 0;
+	}
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -159,9 +172,9 @@ body {
 
 	.chapters {
 		width: 200px !important;
-	  display: block;
-	  margin-left: calc(50% - 100px);
-	  margin-right: calc(50% - 100px);
+		display: block;
+		margin-left: calc(50% - 100px);
+		margin-right: calc(50% - 100px);
 	}
 
 	.chapters_point img {
@@ -177,16 +190,27 @@ body {
 		float: left;
 	}
 
-  .chapters_content {
-  	opacity: 1;
-  	float: right;
-  	margin-top: -10px !important;
-  }
+	.chapters_content {
+		opacity: 1;
+		float: right;
+		margin-top: -10px !important;
+	}
 
-  .chapters_secret {
+	.chapters_secret {
 		width: 16px !important;
 		height: 16px !important;
 		border-radius: 8px !important;
 		margin-top: 0px !important;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	#summary {
+		.chapters{
+			.chapters_content {
+				width: 160px;
+				text-align: left;
+			}
+		}
 	}
 }
