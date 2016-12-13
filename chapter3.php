@@ -61,7 +61,7 @@
 					<img src="images/chap3/chap3_img2.jpg" alt="Intérieur Immeuble Tchernobyl" class="chapterImage" />
 				</div>
 			</div>
-			<div class="row valign-wrapper">
+			<div class="row vwdesk">
 				<div class="one half tablet">
 					<img src="images/chap3/chap3_img3.jpg" alt="Salle de musique près de Tchernobyl" class="chapterImage" />
 				</div>

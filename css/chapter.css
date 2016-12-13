@@ -82,6 +82,9 @@
 @media screen and (max-width: 1024px) {
   .chapter.one, .chapter.two, .chapter.three, .chapter.four, .chapter.five, .chapter.six, .chapter.seven, .chapter.height, .chapter.nine, .chapter.ten, .chapter.eleven, .chapter .en-bref, .chapter .next-chapter {
     background: none #071C36; }
+  .chapter .intro {
+    height: auto;
+    padding-bottom: 50px; }
   .chapter .map-chapter {
     display: none; }
   .chapter .text {

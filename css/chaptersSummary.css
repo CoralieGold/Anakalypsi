@@ -155,7 +155,10 @@ body {
     width: 16px !important;
     height: 16px !important;
     border-radius: 8px !important;
-    margin-top: 0px !important; } }
+    margin-top: 0px !important; }
+
+  .box {
+    width: 250px; } }
 @media screen and (min-width: 1024px) {
   #summary .chapters .chapters_content {
     width: 160px;

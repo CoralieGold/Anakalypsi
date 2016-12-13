@@ -36,7 +36,7 @@ if(!isset($_COOKIE['Anakalypsi']))
 			<div id="line"></div>
 
 			<div class="chapters one eleventh one-up-mobile">
-				<div class="chapters_content">
+				<div class="chapters_content" style="padding-left: 10px;">
 					<div class="chapters_number">
 						Chapitre <span>01</span>
 					</div>

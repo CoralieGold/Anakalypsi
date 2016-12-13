@@ -141,6 +141,10 @@
     &.one, &.two, &.three, &.four, &.five, &.six, &.seven, &.height, &.nine, &.ten, &.eleven, .en-bref, .next-chapter {
       background: none $blue;
     }
+    .intro {
+      height: auto;
+      padding-bottom: 50px;
+    }
     .map-chapter {
       display: none;
     }
