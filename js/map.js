@@ -194,7 +194,6 @@ $(document).ready(function(){
     $('.datamaps-bubble').css('stroke-opacity', '1');
     $('.datamaps-bubble').css('stroke-width', '3');
     $('.datamaps-bubble').css('stroke', 'rgb(255,255,255)');
-    $('.datamaps-bubble').css('cursor', 'pointer');
   });
 
   // CARTE EN GENERAL

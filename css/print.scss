@@ -1,0 +1,61 @@
+@import '_variables';
+
+@media print {
+
+	.gold-border{
+		display: none;
+	}
+
+				.navButton{
+				display: none !important;
+			}
+
+			p,h2,h1{
+				color:#000 !important;
+			}
+
+	.valign-wrapper {
+	display: inherit;
+	-webkit-align-items: initial;
+	-ms-flex-align: initial;
+	align-items: initial;
+}
+
+	.mainNav {
+		display: none !important;
+	}
+	.chapter{
+
+		.intro {
+
+			height: initial !important;
+			margin-bottom: 50px;
+
+			h1{
+				margin-top: 100px;
+			}
+		}
+
+		.text{
+			padding: 0;
+			margin: 0;
+		}
+
+		.en-bref{
+			background: none;
+			padding: 0;
+			margin: 0;
+			p, h2{
+				color: #000;
+			}
+		}
+
+		.map-chapter{
+			display: none;
+		}
+
+		.next-chapter{
+			display: none;
+		}
+	}
+}

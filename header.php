@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -17,6 +18,7 @@
 	<link type="text/css" rel="stylesheet" href="css/groundwork/groundwork-ie.css">
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/print.css" media="print">
 	<?php
 		if($title == "Anakálypsi") {
 			echo '<link rel="stylesheet" type="text/css" href="css/home.css">';
